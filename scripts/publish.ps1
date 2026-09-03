@@ -19,14 +19,18 @@ Set-Location $Root
 $gh = Get-Command gh -ErrorAction SilentlyContinue
 if (-not $gh) { $candidate = 'C:\Program Files\GitHub CLI\gh.exe'; if (Test-Path $candidate) { $gh = $candidate } else { throw 'GitHub CLI (gh) not found. Install it with: winget install GitHub.cli' } } else { $gh = $gh.Source }
 
-& $gh auth status 2>&1 | Out-Null
-if ($LASTEXITCODE -ne 0) { throw 'Not logged in. Run "gh auth login" first, then re-run this script.' }
+# Run a native command quietly; PowerShell 5.1 would otherwise turn its stderr into a terminating error.
+function Quiet([scriptblock]$sb) {
+  $old = $ErrorActionPreference; $ErrorActionPreference = 'Continue'
+  try { & $sb 2>&1 | Out-Null } finally { $ErrorActionPreference = $old }
+  return $LASTEXITCODE
+}
+
+if ((Quiet { & $gh auth status }) -ne 0) { throw 'Not logged in. Run "gh auth login" first, then re-run this script.' }
 $owner = (& $gh api user -q .login).Trim()
 $branch = (git rev-parse --abbrev-ref HEAD).Trim()
 
-$exists = $false
-& $gh repo view "$owner/$RepoName" 2>&1 | Out-Null
-if ($LASTEXITCODE -eq 0) { $exists = $true }
+$exists = (Quiet { & $gh repo view "$owner/$RepoName" }) -eq 0
 
 if (-not $exists) {
   $vis = if ($Private) { '--private' } else { '--public' }
@@ -41,10 +45,11 @@ if (-not $exists) {
 }
 
 Write-Host 'Enabling GitHub Pages (branch root)...'
-& $gh api -X POST "repos/$owner/$RepoName/pages" -f build_type=legacy -f "source[branch]=$branch" -f 'source[path]=/' 2>&1 | Out-Null
-if ($LASTEXITCODE -ne 0) {
-  & $gh api -X PUT "repos/$owner/$RepoName/pages" -f build_type=legacy -f "source[branch]=$branch" -f 'source[path]=/' 2>&1 | Out-Null
+$rc = Quiet { & $gh api -X POST "repos/$owner/$RepoName/pages" -f build_type=legacy -f "source[branch]=$branch" -f 'source[path]=/' }
+if ($rc -ne 0) {
+  $rc = Quiet { & $gh api -X PUT "repos/$owner/$RepoName/pages" -f build_type=legacy -f "source[branch]=$branch" -f 'source[path]=/' }
 }
+if ($rc -ne 0) { Write-Warning 'Could not enable Pages via API. Enable it in the repository Settings > Pages (branch main, folder /).' }
 $url = "https://$owner.github.io/$RepoName/"
 Write-Host ''
 Write-Host "Site: $url  (first deploy takes a minute or two)"
