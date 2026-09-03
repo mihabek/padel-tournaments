@@ -17,7 +17,7 @@ powershell -ExecutionPolicy Bypass -File scripts\serve.ps1
 | Finland | [Suomen Padelliitto on Padelution](https://www.padelution.com/events?pid=62) | Events sanctioned by the federation: Finnish Padel Tour Gold and Silver plus national ranking tournaments ("Kansalliset"). |
 | FIP Bronze | [Cupra FIP Tour calendar](https://www.padelfip.com/calendar-cupra-fip-tour/) | FIP Bronze tournaments only, for the current and next year. |
 
-By default Estonia, Latvia and Finland are selected. FIP Bronze is one click away.
+By default Estonia, Latvia and Finland are selected. FIP Bronze is one click away. The page is dark by default with a light toggle in the header, and "Levels explained" opens a legend describing the Estonian leagues, Latvian tiers and levels, Finnish ranking classes and the FIP tiers.
 
 ## Refreshing the data
 
@@ -31,7 +31,14 @@ The script needs only Windows PowerShell 5.1 or PowerShell 7. It fetches the fou
 
 ## Hosting
 
-Any static host works (GitHub Pages, Netlify, Cloudflare Pages). The included GitHub Actions workflow in `.github/workflows/refresh.yml` re-runs the refresh script every morning and commits the new data, so a GitHub Pages site stays current on its own. Enable Pages for the repository from the `main` branch root.
+Any static host works (GitHub Pages, Netlify, Cloudflare Pages). For GitHub Pages, log in once with the GitHub CLI and run the publish script, which creates the repository, pushes, and enables Pages from the `main` branch root:
+
+```powershell
+gh auth login
+powershell -ExecutionPolicy Bypass -File scripts\publish.ps1
+```
+
+The included GitHub Actions workflow in `.github/workflows/refresh.yml` re-runs the refresh script every morning and commits the new data, so the Pages site stays current on its own. It needs "Read and write" workflow permissions under Settings > Actions > General.
 
 ## Files
 
@@ -43,6 +50,7 @@ data/tournaments.js     generated data loaded by the page
 data/tournaments.json   same data as plain JSON
 scripts/refresh.ps1     scraper that regenerates the data
 scripts/serve.ps1       optional local preview server
+scripts/publish.ps1     one-time GitHub Pages publish (needs gh)
 .github/workflows/      daily refresh on GitHub Actions
 ```
 

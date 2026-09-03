@@ -14,9 +14,12 @@
 </head>
 <body>
   <header class="top">
-    <div class="wrap">
-      <h1>Padel tournaments</h1>
-      <p class="sub">Official federation tournaments in Estonia, Latvia and Finland, plus FIP Bronze events worldwide.</p>
+    <div class="wrap head">
+      <div>
+        <h1>Padel tournaments</h1>
+        <p class="sub">Official federation tournaments in Estonia, Latvia and Finland, plus FIP Bronze events worldwide.</p>
+      </div>
+      <button type="button" class="theme" id="themeToggle" aria-label="Switch to light theme" title="Switch theme">☀</button>
     </div>
   </header>
 
@@ -36,7 +39,63 @@
       </div>
     </section>
 
-    <p class="summary" id="summary" aria-live="polite"></p>
+    <div class="bar">
+      <p class="summary" id="summary" aria-live="polite"></p>
+      <button type="button" class="linkish" id="legendToggle" aria-expanded="false" aria-controls="legend">Levels explained</button>
+    </div>
+
+    <section class="legend" id="legend" hidden aria-label="Levels explained">
+      <div class="lg" style="--c:var(--ee);--c-soft:var(--ee-soft)">
+        <h3>🇪🇪 Estonia · EPL leagues</h3>
+        <p>Stages of the Eesti Padeli Liit season. Each league has 7 stages a year (women's B has 6). Who may enter depends on the EPL ranking, which counts a player's best 5 stages of the last 12 months.</p>
+        <dl>
+          <dt>A-liiga</dt><dd>Top league, open to everyone. If oversubscribed, pairs get in by ranking. Winner earns 500 points, and the Estonian Championship stage 750.</dd>
+          <dt>B-liiga</dt><dd>Amateur league. The top 30 men (or women) of the ranking may not enter. Winner earns 100 points. B players may still play A stages.</dd>
+          <dt>C-liiga</dt><dd>The top 70 men may not enter. Short pro-set matches to 8. Winner earns 50 points.</dd>
+          <dt>D-liiga</dt><dd>Entry league. The top 120 men may not enter, new players without ranking points are welcome, places go by registration order. Winner earns 25 points.</dd>
+        </dl>
+        <p class="src">Source: <a href="https://padel.ee/wp-content/uploads/2026/05/2026-EPL-voistluste-reglement-V2.pdf" target="_blank" rel="noopener">EPL competition regulations 2026</a>. This site lists A and B only.</p>
+      </div>
+
+      <div class="lg" style="--c:var(--lv);--c-soft:var(--lv-soft)">
+        <h3>🇱🇻 Latvia · LPF series</h3>
+        <p>Tournaments of the Latvijas Padel Federācija ranking series (LPF reitinga sacensības). The tag on each tournament is its tier; inside a tournament players enter by level.</p>
+        <dl>
+          <dt>Gold</dt><dd>Top tier of the series, often with a prize fund. Usually offers levels A to D for men and women.</dd>
+          <dt>Silver</dt><dd>Second tier, same level structure.</dd>
+          <dt>Bronze</dt><dd>Third tier. Currently used for the women's league stages, levels B to D.</dd>
+          <dt>Levels A–D</dt><dd>A is the strongest group and D the entry group. PRO (A) and AM (B–D) are used at festivals.</dd>
+          <dt>Championship</dt><dd>Latvijas Republikas padel čempionāts, one open men's and women's draw.</dd>
+        </dl>
+        <p class="src">Derived from the categories published on <a href="https://padelfederacija.lv/lv-LV/tournaments" target="_blank" rel="noopener">padelfederacija.lv</a>. The federation has not published written level criteria on its site.</p>
+      </div>
+
+      <div class="lg" style="--c:var(--fi);--c-soft:var(--fi-soft)">
+        <h3>🇫🇮 Finland · SPL classes</h3>
+        <p>Players are placed in a class by their position in the Suomen Padelliitto ranking (best 7 results of the last 12 months). Class codes are prefixed M for men and N for women, so MC1 is men's C1. P and T with an age are boys' and girls' junior classes, M40 or N40 are age groups.</p>
+        <dl>
+          <dt>A1 · A2</dt><dd>Ranking 1–15 and 16–60 for men. Elite and advanced.</dd>
+          <dt>B1 · B2</dt><dd>Ranking 61–115 and 116–200. Upper intermediate.</dd>
+          <dt>C1 · C2</dt><dd>Ranking 201–400 and 401–700. Intermediate.</dd>
+          <dt>D1 · D2</dt><dd>Ranking 701–1000 and 1001–2000. Beginner competitive.</dd>
+          <dt>E</dt><dd>Ranking 2001 and beyond, or no ranking yet. Entry class.</dd>
+        </dl>
+        <p>Women use the same nine classes with lower position thresholds.</p>
+        <dl>
+          <dt>FPT Gold</dt><dd>Finnish Padel Tour main events, 4 a year. Winner earns 1000 ranking points, prize money. Usually paired with the Babolat Junior Tour (BJT).</dd>
+          <dt>FPT Silver</dt><dd>Finnish Padel Tour, 4 a year, lighter format. Winner earns 800 points.</dd>
+          <dt>Nationals</dt><dd>Kansalliset kilpailut: club-run ranking tournaments played per class, the bulk of the calendar.</dd>
+        </dl>
+        <p class="src">Sources: <a href="https://padel.fi/ranking26/" target="_blank" rel="noopener">padel.fi ranking classes 2026</a>, <a href="https://www.finnishpadeltour.fi/" target="_blank" rel="noopener">finnishpadeltour.fi</a>.</p>
+      </div>
+
+      <div class="lg" style="--c:var(--fip);--c-soft:var(--fip-soft)">
+        <h3>🌍 FIP Bronze</h3>
+        <p>The Cupra FIP Tour is the International Padel Federation's professional circuit with four tiers: Bronze, Silver, Gold and Platinum. Bronze is the entry tier, the most common way to earn first FIP ranking points, and the one this site tracks.</p>
+        <p class="src">Source: <a href="https://www.padelfip.com/calendar-cupra-fip-tour/" target="_blank" rel="noopener">padelfip.com calendar</a>.</p>
+      </div>
+    </section>
+
     <div id="list"></div>
   </main>
 

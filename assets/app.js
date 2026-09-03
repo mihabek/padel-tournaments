@@ -194,6 +194,33 @@
   });
   window.addEventListener('hashchange', function () { readHash(); $search.value = state.q; update(); });
 
+  // ----- legend -----
+  var $legendToggle = document.getElementById('legendToggle');
+  var $legend = document.getElementById('legend');
+  $legendToggle.addEventListener('click', function () {
+    var open = $legend.hidden;
+    $legend.hidden = !open;
+    $legendToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    $legendToggle.textContent = open ? 'Hide levels' : 'Levels explained';
+  });
+
+  // ----- theme (dark by default, light on request, remembered per browser) -----
+  var $theme = document.getElementById('themeToggle');
+  function applyTheme(t) {
+    if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+    else document.documentElement.removeAttribute('data-theme');
+    $theme.textContent = t === 'light' ? '☾' : '☀';
+    $theme.setAttribute('aria-label', t === 'light' ? 'Switch to dark theme' : 'Switch to light theme');
+  }
+  var savedTheme = null;
+  try { savedTheme = localStorage.getItem('padel-theme'); } catch (e) {}
+  applyTheme(savedTheme === 'light' ? 'light' : 'dark');
+  $theme.addEventListener('click', function () {
+    var next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    applyTheme(next);
+    try { localStorage.setItem('padel-theme', next); } catch (e) {}
+  });
+
   readHash();
   $search.value = state.q;
   renderSources();
