@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Padel Tournaments · Baltics & Finland</title>
+  <meta name="description" content="Upcoming official padel tournaments in Estonia, Latvia and Finland, plus FIP Bronze tournaments worldwide. Filter by country and month.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23c8f542'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>Padel tournaments</h1>
+      <p class="sub">Official federation tournaments in Estonia, Latvia and Finland, plus FIP Bronze events worldwide.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filters">
+      <div class="filter-row">
+        <span class="label">Country</span>
+        <div class="chips" id="countryChips" role="group" aria-label="Country"></div>
+      </div>
+      <div class="filter-row">
+        <span class="label">Month</span>
+        <div class="chips" id="monthChips" role="group" aria-label="Month"></div>
+      </div>
+      <div class="filter-row">
+        <label class="label" for="search">Search</label>
+        <input type="search" id="search" placeholder="Name, city, venue or class (e.g. MC1)" autocomplete="off">
+      </div>
+    </section>
+
+    <p class="summary" id="summary" aria-live="polite"></p>
+    <div id="list"></div>
+  </main>
+
+  <footer class="wrap">
+    <div id="sources"></div>
+    <p class="fine">Dates and details come from the source pages and can change. Always check the tournament page before travelling.</p>
+  </footer>
+
+  <script src="data/tournaments.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
