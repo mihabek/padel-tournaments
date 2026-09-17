@@ -2,7 +2,7 @@
 <#
 .SYNOPSIS
   Refreshes data/tournaments.json and data/tournaments.js from four sources:
-    - Estonia : Eesti Padeli Liit on Rankedin (A-liiga and B-liiga only, unless -AllEstonianLeagues)
+    - Estonia : Eesti Padeli Liit on Rankedin (A, B, C and D leagues; -AllEstonianLeagues adds youth, seniors and other events)
     - Finland : Suomen Padelliitto sanctioned events on Padelution
     - Latvia  : Latvijas Padel Federacija on padelfederacija.lv (Tournated platform)
     - FIP     : Cupra FIP Tour calendar on padelfip.com, FIP Bronze tournaments only
@@ -36,7 +36,7 @@ function Get-Text([string]$Url) {
   return $r.Content
 }
 function Get-JsonUrl([string]$Url) { return (Get-Text $Url | ConvertFrom-Json) }
-function Clean([string]$s) {
+function Clean-Text([string]$s) {
   if ($null -eq $s) { return '' }
   $t = $s -replace '<!--.*?-->', ' ' -replace '<[^>]+>', ' '
   $t = [System.Net.WebUtility]::HtmlDecode($t)
@@ -104,13 +104,17 @@ try {
     if ($parts.Count -eq 0) { continue }
     $league = $parts[0]
     $tierLetter = if ($league -match '\b([A-D])-liiga') { $Matches[1] } else { $null }
-    if (-not $AllEstonianLeagues -and $tierLetter -notin @('A','B')) { continue }
+    if (-not $AllEstonianLeagues -and $tierLetter -notin @('A','B','C','D')) { continue }
     $gender = if ($league -match 'Naiste') { 'women' } elseif ($league -match 'Meeste') { 'men' } else { 'open' }
     $stage  = if ($parts.Count -gt 1) { $parts[1] } else { '' }
-    $venue  = if ($parts.Count -gt 2) { $parts[2] } else { '' }
+    # A stage can be split into groups: "EPL Meeste D-liiga | 7. etapp | Grupp A | Padel Arenas"
+    $rest   = @($parts | Select-Object -Skip 2)
+    $group  = [string](@($rest | Where-Object { $_ -match '^Grupp\b' }) | Select-Object -First 1)
+    $venue  = [string](@($rest | Where-Object { $_ -notmatch '^Grupp\b' }) | Select-Object -First 1)
     $tier   = if ($tierLetter) { "$tierLetter-liiga" } else { 'Other' }
     $shortLeague = ($league -replace '^EPL\s+', '' -replace 'Elizabeth Arden\s+', '')
     $name = if ($stage) { "$shortLeague, $stage" } else { $shortLeague }
+    if ($group) { $name = "$name, $group" }
     $start = [datetime]$e.startDate; $end = [datetime]$e.endDate
     if ($end.Date -lt $Today) { continue }
     $deadline = $null; $status = 'unknown'
@@ -149,7 +153,7 @@ try {
       if ($seen.ContainsKey($id) -or $curMonth -eq 0) { continue }
       $seen[$id] = $true
       try {
-        $dateTxt = Clean ([regex]::Match($row, '<span>([^<]*)</span>').Groups[1].Value)
+        $dateTxt = Clean-Text ([regex]::Match($row, '<span>([^<]*)</span>').Groups[1].Value)
         $dm = [regex]::Match($dateTxt, '^(\d{1,2})\.(?:\s*([A-Za-z]{3})\.)?(?:\s*-\s*(\d{1,2})\.(?:\s*([A-Za-z]{3})\.)?)?')
         if (-not $dm.Success) { Write-Warning "FI $id unparsed date '$dateTxt'"; continue }
         $sd = [int]$dm.Groups[1].Value
@@ -162,14 +166,14 @@ try {
           $ey = $curYear; if ($em -gt 12) { $em = 1; $ey++ }
           $end = MakeDate $ey $em $ed
         }
-        $organizer = Clean ([regex]::Match($row, 'class="text-gray-500">(.*?)</span>').Groups[1].Value)
+        $organizer = Clean-Text ([regex]::Match($row, 'class="text-gray-500">(.*?)</span>').Groups[1].Value)
         $lm = [regex]::Match($row, '<a href="(https://www\.padelution\.com/events/[^"?]+)"\s+class="transition">\s*<div[^>]*>(.*?)</div>')
-        $url = $lm.Groups[1].Value; $name = Clean $lm.Groups[2].Value
+        $url = $lm.Groups[1].Value; $name = Clean-Text $lm.Groups[2].Value
         if (-not $url) { continue }
-        $classes = @([regex]::Matches($row, 'wire:key="eventclass-\d+-\d+">\s*<div[^>]*>(.*?)</div>') | ForEach-Object { Clean $_.Groups[1].Value } | Where-Object { $_ })
+        $classes = @([regex]::Matches($row, 'wire:key="eventclass-\d+-\d+">\s*<div[^>]*>(.*?)</div>') | ForEach-Object { Clean-Text $_.Groups[1].Value } | Where-Object { $_ })
         # The date cell has class "whitespace-nowrap font-medium ..."; the city cell has "whitespace-nowrap text-gray-100 align-top".
         $cityMatch = [regex]::Match($row, 'whitespace-nowrap text-gray-100 align-top">\s*(?:<!--.*?-->\s*)*<span>([^<]*)</span>')
-        $city = if ($cityMatch.Success) { Clean $cityMatch.Groups[1].Value } else { '' }
+        $city = if ($cityMatch.Success) { Clean-Text $cityMatch.Groups[1].Value } else { '' }
         if ($city -cmatch '^[A-Z\s-]+$') { $city = $TextInfo.ToTitleCase($city.ToLower()) }
         $tier = if ($name -match 'FPT\s*Gold' -or ($classes -contains 'MFPTG') -or ($classes -contains 'NFPTG')) { 'FPT Gold' }
                 elseif ($name -match 'FPT\s*Silver' -or ($classes -contains 'MFPTS') -or ($classes -contains 'NFPTS')) { 'FPT Silver' }
@@ -262,7 +266,7 @@ try {
     foreach ($b in $blockRx.Matches($html)) {
       $blk = $b.Groups[1].Value
       $tm = [regex]::Match($blk, '<div class="event-title"><span><a href="([^"]*)"[^>]*>(.*?)</a>')
-      $title = Clean $tm.Groups[2].Value; $url = $tm.Groups[1].Value
+      $title = Clean-Text $tm.Groups[2].Value; $url = $tm.Groups[1].Value
       if ($title -notmatch '\bBRONZE\b') { continue }
       if ($seen.ContainsKey($url)) { continue }; $seen[$url] = $true
       $dm = [regex]::Match($blk, 'From\s+(\d{2})/(\d{2})/(\d{4})\s+to\s+(\d{2})/(\d{2})/(\d{4})')
@@ -270,7 +274,7 @@ try {
       $start = MakeDate ([int]$dm.Groups[3].Value) ([int]$dm.Groups[2].Value) ([int]$dm.Groups[1].Value)
       $end   = MakeDate ([int]$dm.Groups[6].Value) ([int]$dm.Groups[5].Value) ([int]$dm.Groups[4].Value)
       if ($end.Date -lt $Today) { continue }
-      $loc = Clean ([regex]::Match($blk, '<div class="event-location">(.*?)</div>').Groups[1].Value)
+      $loc = Clean-Text ([regex]::Match($blk, '<div class="event-location">(.*?)</div>').Groups[1].Value)
       $city = $loc; $hostCountry = ''
       if ($loc -match '^(.*?)\s+-\s+(.*)$') { $city = $Matches[1].Trim(); $hostCountry = $Matches[2].Trim() }
       $st = [regex]::Match($blk, 'class="([a-z-]+) event-status"').Groups[1].Value

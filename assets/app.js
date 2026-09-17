@@ -181,7 +181,7 @@
       html += '<li>' + (s.ok ? '' : '<span class="warn">⚠ </span>') + '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a>' +
         (s.ok ? ' · ' + s.count + ' upcoming' : ' · failed to load last time') + '</li>';
     });
-    html += '</ul><p>Data updated ' + esc(gen) + '. Estonia shows A-liiga and B-liiga only.</p>';
+    html += '</ul><p>Data updated ' + esc(gen) + '. Estonia shows the A, B, C and D leagues.</p>';
     $sources.innerHTML = html;
   }
 

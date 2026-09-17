@@ -12,7 +12,7 @@ powershell -ExecutionPolicy Bypass -File scripts\serve.ps1
 
 | Chip | Source | What is included |
 |---|---|---|
-| Estonia | [Eesti Padeli Liit on Rankedin](https://www.rankedin.com/en/organisation/calendar/1763/eesti-padeli-liit) | A-liiga and B-liiga stages (men and women). Run the refresh with `-AllEstonianLeagues` to include C and D. |
+| Estonia | [Eesti Padeli Liit on Rankedin](https://www.rankedin.com/en/organisation/calendar/1763/eesti-padeli-liit) | A, B, C and D league stages (men and women). Run the refresh with `-AllEstonianLeagues` to also include youth, senior and other events. |
 | Latvia | [Latvijas Padel Federācija](https://padelfederacija.lv/lv-LV/tournaments) | Every upcoming tournament on the federation site (Gold / Silver / Bronze series, championships). |
 | Finland | [Suomen Padelliitto on Padelution](https://www.padelution.com/events?pid=62) | Events sanctioned by the federation: Finnish Padel Tour Gold and Silver plus national ranking tournaments ("Kansalliset"). |
 | FIP Bronze | [Cupra FIP Tour calendar](https://www.padelfip.com/calendar-cupra-fip-tour/) | FIP Bronze tournaments only, for the current and next year. |
