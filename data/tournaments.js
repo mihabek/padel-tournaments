@@ -1,5 +1,5 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-09-17T13:58:15Z",
+  "generatedAt": "2026-09-18T08:56:43Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@ window.PADEL_DATA = {
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-17T13:57:59Z"
+      "fetchedAt": "2026-09-18T08:56:30Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@ window.PADEL_DATA = {
       "count": 136,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-17T13:58:07Z"
+      "fetchedAt": "2026-09-18T08:56:36Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 7,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-17T13:58:13Z"
+      "fetchedAt": "2026-09-18T08:56:41Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 39,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-17T13:58:15Z"
+      "fetchedAt": "2026-09-18T08:56:43Z"
     }
   ],
   "tournaments": [
