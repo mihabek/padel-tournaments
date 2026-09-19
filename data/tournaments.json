@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:56:43Z",
+  "generatedAt": "2026-09-19T08:43:40Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-18T08:56:30Z"
+      "fetchedAt": "2026-09-19T08:43:28Z"
     },
     {
       "id": "SPL",
@@ -17,25 +17,25 @@
       "count": 136,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-18T08:56:36Z"
+      "fetchedAt": "2026-09-19T08:43:35Z"
     },
     {
       "id": "LPF",
       "name": "Latvijas Padel Federacija (padelfederacija.lv)",
       "url": "https://padelfederacija.lv/lv-LV/tournaments",
-      "count": 7,
+      "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-18T08:56:41Z"
+      "fetchedAt": "2026-09-19T08:43:38Z"
     },
     {
       "id": "FIP",
       "name": "Cupra FIP Tour calendar (padelfip.com)",
       "url": "https://www.padelfip.com/calendar-cupra-fip-tour/?events-year=2026",
-      "count": 39,
+      "count": 38,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-18T08:56:43Z"
+      "fetchedAt": "2026-09-19T08:43:40Z"
     }
   ],
   "tournaments": [
@@ -114,8 +114,8 @@
       "hostCountry": "Estonia",
       "startDate": "2026-09-19",
       "endDate": "2026-09-19",
-      "url": "https://www.rankedin.com/en/tournament/73175/epl-meeste-d-liiga-5-etapp-padel-eventus",
-      "status": "closed",
+      "url": "https://www.rankedin.com/en/tournament/73175/epl-meeste-d-liiga-5-etapp-padel-eventus-1014",
+      "status": "live",
       "deadline": "2026-09-16",
       "organizer": "Eesti Padeli Liit"
     },
@@ -142,7 +142,7 @@
       "startDate": "2026-09-19",
       "endDate": "2026-09-19",
       "url": "https://www.padelution.com/events/kansalliset-kilpailut-b-c-d-e-padel-tampere-7126",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Padel Tampere"
     },
@@ -169,7 +169,7 @@
       "startDate": "2026-09-19",
       "endDate": "2026-09-19",
       "url": "https://www.padelution.com/events/yhden-paivan-kansalliset-kilpailut-at-house-of-games-7563",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "House of Padel ry"
     },
@@ -188,8 +188,8 @@
       "hostCountry": "Estonia",
       "startDate": "2026-09-19",
       "endDate": "2026-09-20",
-      "url": "https://www.rankedin.com/en/tournament/73152/epl-a-liiga-5-etapp-padelstar-helme",
-      "status": "closed",
+      "url": "https://www.rankedin.com/en/tournament/73152/epl-a-liiga-5-etapp-padelstar-helme-l-5990-p-3387",
+      "status": "live",
       "deadline": "2026-09-16",
       "organizer": "Eesti Padeli Liit"
     },
@@ -214,7 +214,7 @@
       "startDate": "2026-09-19",
       "endDate": "2026-09-20",
       "url": "https://www.padelution.com/events/kansalliset-kilpailut-xo-center-md2-me-nd2-ne-7234",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Poco Loco Padel ry"
     },
@@ -241,7 +241,7 @@
       "startDate": "2026-09-19",
       "endDate": "2026-09-20",
       "url": "https://www.padelution.com/events/kansalliset-kilpailut-by-poropadel-b1-d1-ja-e-luokat-7216",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Poropadel"
     },
@@ -266,7 +266,7 @@
       "startDate": "2026-09-19",
       "endDate": "2026-09-20",
       "url": "https://www.padelution.com/events/kansalliset-kilpailut-ec2-vamos-itaharju-7340",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "PadelVelehot"
     },
@@ -291,7 +291,7 @@
       "startDate": "2026-09-19",
       "endDate": "2026-09-20",
       "url": "https://www.padelution.com/events/kansalliset-pori-padel-ry-c2-d2-7132",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Pori Padel ry"
     },
@@ -316,7 +316,7 @@
       "startDate": "2026-09-19",
       "endDate": "2026-09-20",
       "url": "https://www.padelution.com/events/padel-kingin-kansalliset-kilpailut-7185",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Padel King Hämeenlinna"
     },
@@ -341,7 +341,7 @@
       "startDate": "2026-09-19",
       "endDate": "2026-09-20",
       "url": "https://www.padelution.com/events/yksipaivaiset-kansalliset-kilpailut-smash-out-porvoo-7048",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Smash Out Porvoo ry"
     },
@@ -396,6 +396,26 @@
       "organizer": "PLPG"
     },
     {
+      "id": "FIP-fip-bronze-vina-del-mar-vii-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Viña del Mar",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Viña del Mar",
+      "venue": "",
+      "hostCountry": "Chile",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "url": "https://www.padelfip.com/events/fip-bronze-vina-del-mar-vii-2026/",
+      "status": "closed",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
       "id": "FIP-fip-bronze-dubai-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -408,7 +428,7 @@
       "city": "Dubai",
       "venue": "",
       "hostCountry": "United Arab Emirates",
-      "startDate": "2026-09-21",
+      "startDate": "2026-09-22",
       "endDate": "2026-09-27",
       "url": "https://www.padelfip.com/events/fip-bronze-dubai-2026/",
       "status": "closed",
@@ -428,29 +448,9 @@
       "city": "Tunisia",
       "venue": "",
       "hostCountry": "Tunisia",
-      "startDate": "2026-09-21",
+      "startDate": "2026-09-23",
       "endDate": "2026-09-27",
       "url": "https://www.padelfip.com/events/fip-bronze-tunisia-i-2026/",
-      "status": "closed",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-vina-del-mar-vii-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Viña del Mar",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Viña del Mar",
-      "venue": "",
-      "hostCountry": "Chile",
-      "startDate": "2026-09-21",
-      "endDate": "2026-09-27",
-      "url": "https://www.padelfip.com/events/fip-bronze-vina-del-mar-vii-2026/",
       "status": "closed",
       "deadline": null,
       "organizer": "FIP"
@@ -531,7 +531,7 @@
       "startDate": "2026-09-28",
       "endDate": "2026-10-04",
       "url": "https://www.padelfip.com/events/fip-bronze-almeirim-2026/",
-      "status": "open",
+      "status": "closed",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -551,7 +551,7 @@
       "startDate": "2026-09-28",
       "endDate": "2026-10-04",
       "url": "https://www.padelfip.com/events/fip-bronze-pakistan-i-2026/",
-      "status": "open",
+      "status": "closed",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -571,29 +571,9 @@
       "startDate": "2026-09-28",
       "endDate": "2026-10-04",
       "url": "https://www.padelfip.com/events/fip-bronze-tunisia-ii-2026/",
-      "status": "open",
+      "status": "closed",
       "deadline": null,
       "organizer": "FIP"
-    },
-    {
-      "id": "LPF-11388",
-      "country": "LV",
-      "countryName": "Latvia",
-      "source": "LPF",
-      "sourceName": "Latvijas Padel Federacija",
-      "name": "X Padel Open",
-      "tier": "Silver",
-      "classes": [],
-      "gender": "open",
-      "city": "Jelgava",
-      "venue": "X Padel",
-      "hostCountry": "Latvia",
-      "startDate": "2026-10-02",
-      "endDate": "2026-10-03",
-      "url": "https://padelfederacija.lv/lv-LV/tournament/11388",
-      "status": "open",
-      "deadline": "2026-09-28",
-      "organizer": "Latvijas Padel Federācija"
     },
     {
       "id": "SPL-6275",
@@ -2674,26 +2654,6 @@
       "startDate": "2026-11-09",
       "endDate": "2026-11-15",
       "url": "https://www.padelfip.com/events/fip-bronze-doha-2026-2/",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-mumbai-iv-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Mumbai IV",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Mumbai",
-      "venue": "",
-      "hostCountry": "India",
-      "startDate": "2026-11-09",
-      "endDate": "2026-11-15",
-      "url": "https://www.padelfip.com/events/fip-bronze-mumbai-iv-2026/",
       "status": "upcoming",
       "deadline": null,
       "organizer": "FIP"
