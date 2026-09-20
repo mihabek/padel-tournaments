@@ -1,23 +1,23 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-09-19T08:43:40Z",
+  "generatedAt": "2026-09-20T09:13:02Z",
   "sources": [
     {
       "id": "EPL",
       "name": "Eesti Padeli Liit (Rankedin)",
       "url": "https://www.rankedin.com/en/organisation/calendar/1763/eesti-padeli-liit",
-      "count": 15,
+      "count": 14,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-19T08:43:28Z"
+      "fetchedAt": "2026-09-20T09:12:48Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 136,
+      "count": 134,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-19T08:43:35Z"
+      "fetchedAt": "2026-09-20T09:12:55Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-19T08:43:38Z"
+      "fetchedAt": "2026-09-20T09:12:59Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 38,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-19T08:43:40Z"
+      "fetchedAt": "2026-09-20T09:13:02Z"
     }
   ],
   "tournaments": [
@@ -98,80 +98,6 @@ window.PADEL_DATA = {
       "status": "live",
       "deadline": "2026-09-16",
       "organizer": ""
-    },
-    {
-      "id": "EPL-73175",
-      "country": "EE",
-      "countryName": "Estonia",
-      "source": "EPL",
-      "sourceName": "Eesti Padeli Liit",
-      "name": "Meeste D-liiga, 5. etapp",
-      "tier": "D-liiga",
-      "classes": [],
-      "gender": "men",
-      "city": "Luige",
-      "venue": "Padel+ Eventus",
-      "hostCountry": "Estonia",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-19",
-      "url": "https://www.rankedin.com/en/tournament/73175/epl-meeste-d-liiga-5-etapp-padel-eventus-1014",
-      "status": "live",
-      "deadline": "2026-09-16",
-      "organizer": "Eesti Padeli Liit"
-    },
-    {
-      "id": "SPL-7129",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset Kilpailut B, C, D & E | Padel Tampere",
-      "tier": "Nationals",
-      "classes": [
-        "MB1",
-        "MD1",
-        "NB1",
-        "NC1",
-        "ND1",
-        "NE"
-      ],
-      "gender": "open",
-      "city": "Tampere",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-19",
-      "url": "https://www.padelution.com/events/kansalliset-kilpailut-b-c-d-e-padel-tampere-7126",
-      "status": "live",
-      "deadline": null,
-      "organizer": "Padel Tampere"
-    },
-    {
-      "id": "SPL-7566",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Yhden päivän kansalliset kilpailut @ House of Games",
-      "tier": "Nationals",
-      "classes": [
-        "MC1",
-        "MD1",
-        "ME",
-        "NC1",
-        "ND1",
-        "NE"
-      ],
-      "gender": "open",
-      "city": "Espoo",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-09-19",
-      "endDate": "2026-09-19",
-      "url": "https://www.padelution.com/events/yhden-paivan-kansalliset-kilpailut-at-house-of-games-7563",
-      "status": "live",
-      "deadline": null,
-      "organizer": "House of Padel ry"
     },
     {
       "id": "EPL-73152",
@@ -366,7 +292,7 @@ window.PADEL_DATA = {
       "startDate": "2026-09-20",
       "endDate": "2026-09-20",
       "url": "https://www.padelution.com/events/padeltehdas-open-md1-nd1-me-ne-7274",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Nurmijärven Padelseura"
     },
@@ -391,7 +317,7 @@ window.PADEL_DATA = {
       "startDate": "2026-09-20",
       "endDate": "2026-09-20",
       "url": "https://www.padelution.com/events/pre-sarjapadel",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "PLPG"
     },
