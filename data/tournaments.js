@@ -1,5 +1,5 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-09-21T09:49:52Z",
+  "generatedAt": "2026-09-22T09:13:27Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@ window.PADEL_DATA = {
       "count": 13,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-21T09:49:43Z"
+      "fetchedAt": "2026-09-22T09:13:16Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@ window.PADEL_DATA = {
       "count": 126,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-21T09:49:48Z"
+      "fetchedAt": "2026-09-22T09:13:23Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-21T09:49:50Z"
+      "fetchedAt": "2026-09-22T09:13:26Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 36,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-21T09:49:52Z"
+      "fetchedAt": "2026-09-22T09:13:27Z"
     }
   ],
   "tournaments": [
@@ -75,7 +75,7 @@ window.PADEL_DATA = {
       "startDate": "2026-09-22",
       "endDate": "2026-09-27",
       "url": "https://www.padelfip.com/events/fip-bronze-dubai-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -92,7 +92,7 @@ window.PADEL_DATA = {
       "city": "Tunisia",
       "venue": "",
       "hostCountry": "Tunisia",
-      "startDate": "2026-09-23",
+      "startDate": "2026-09-24",
       "endDate": "2026-09-27",
       "url": "https://www.padelfip.com/events/fip-bronze-tunisia-i-2026/",
       "status": "closed",
@@ -2027,7 +2027,7 @@ window.PADEL_DATA = {
       "startDate": "2026-11-02",
       "endDate": "2026-11-08",
       "url": "https://www.padelfip.com/events/fip-bronze-cyprus-iv-2026/",
-      "status": "upcoming",
+      "status": "open",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -2047,27 +2047,7 @@ window.PADEL_DATA = {
       "startDate": "2026-11-02",
       "endDate": "2026-11-08",
       "url": "https://www.padelfip.com/events/fip-bronze-finland-2026/",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-kerala-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Kerala",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Kerala",
-      "venue": "",
-      "hostCountry": "India",
-      "startDate": "2026-11-02",
-      "endDate": "2026-11-08",
-      "url": "https://www.padelfip.com/events/fip-bronze-kerala-2026/",
-      "status": "upcoming",
+      "status": "open",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -2319,6 +2299,26 @@ window.PADEL_DATA = {
       "startDate": "2026-11-09",
       "endDate": "2026-11-15",
       "url": "https://www.padelfip.com/events/fip-bronze-doha-2026-2/",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
+      "id": "FIP-fip-bronze-kochi-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Kochi",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Kochi",
+      "venue": "",
+      "hostCountry": "India",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15",
+      "url": "https://www.padelfip.com/events/fip-bronze-kochi-2026/",
       "status": "upcoming",
       "deadline": null,
       "organizer": "FIP"
