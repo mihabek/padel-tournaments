@@ -1,5 +1,5 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-09-23T09:14:04Z",
+  "generatedAt": "2026-09-24T09:12:18Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@ window.PADEL_DATA = {
       "count": 13,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-23T09:13:51Z"
+      "fetchedAt": "2026-09-24T09:12:07Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@ window.PADEL_DATA = {
       "count": 126,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-23T09:13:58Z"
+      "fetchedAt": "2026-09-24T09:12:13Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-23T09:14:01Z"
+      "fetchedAt": "2026-09-24T09:12:16Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 36,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-23T09:14:04Z"
+      "fetchedAt": "2026-09-24T09:12:18Z"
     }
   ],
   "tournaments": [
@@ -95,7 +95,7 @@ window.PADEL_DATA = {
       "startDate": "2026-09-24",
       "endDate": "2026-09-27",
       "url": "https://www.padelfip.com/events/fip-bronze-tunisia-i-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -135,7 +135,7 @@ window.PADEL_DATA = {
       "startDate": "2026-09-26",
       "endDate": "2026-09-26",
       "url": "https://www.rankedin.com/en/tournament/74411/epl-meeste-c-liiga-5-etapp-cool-padel",
-      "status": "open",
+      "status": "closed",
       "deadline": "2026-09-23",
       "organizer": "Eesti Padeli Liit"
     },
@@ -232,7 +232,7 @@ window.PADEL_DATA = {
       "city": "Tunisia",
       "venue": "",
       "hostCountry": "Tunisia",
-      "startDate": "2026-09-28",
+      "startDate": "2026-09-30",
       "endDate": "2026-10-04",
       "url": "https://www.padelfip.com/events/fip-bronze-tunisia-ii-2026/",
       "status": "closed",
@@ -477,8 +477,7 @@ window.PADEL_DATA = {
       "classes": [
         "MC1",
         "NC1",
-        "MD1",
-        "ND1"
+        "MD1"
       ],
       "gender": "open",
       "city": "",
