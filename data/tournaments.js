@@ -1,5 +1,5 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-09-24T09:12:18Z",
+  "generatedAt": "2026-09-25T09:31:56Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@ window.PADEL_DATA = {
       "count": 13,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-24T09:12:07Z"
+      "fetchedAt": "2026-09-25T09:31:45Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@ window.PADEL_DATA = {
       "count": 126,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-24T09:12:13Z"
+      "fetchedAt": "2026-09-25T09:31:51Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-24T09:12:16Z"
+      "fetchedAt": "2026-09-25T09:31:54Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 36,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-24T09:12:18Z"
+      "fetchedAt": "2026-09-25T09:31:56Z"
     }
   ],
   "tournaments": [
@@ -115,7 +115,7 @@ window.PADEL_DATA = {
       "startDate": "2026-09-25",
       "endDate": "2026-09-27",
       "url": "https://www.padelfip.com/events/fip-bronze-vina-del-mar-vii-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -155,7 +155,7 @@ window.PADEL_DATA = {
       "startDate": "2026-09-26",
       "endDate": "2026-09-26",
       "url": "https://padelfederacija.lv/lv-LV/tournament/11617",
-      "status": "open",
+      "status": "closed",
       "deadline": "2026-09-24",
       "organizer": "Latvijas Padel Federācija"
     },
@@ -175,9 +175,29 @@ window.PADEL_DATA = {
       "startDate": "2026-09-27",
       "endDate": "2026-09-27",
       "url": "https://www.rankedin.com/en/tournament/73183/epl-elizabeth-arden-naiste-b-liiga-4-etapp-cool-padel",
-      "status": "open",
+      "status": "closed",
       "deadline": "2026-09-24",
       "organizer": "Eesti Padeli Liit"
+    },
+    {
+      "id": "FIP-fip-bronze-the-mora-tunisia-ii-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "The Mora Tunisia II",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Tunisia",
+      "venue": "",
+      "hostCountry": "Tunisia",
+      "startDate": "2026-09-30",
+      "endDate": "2026-10-04",
+      "url": "https://www.padelfip.com/events/fip-bronze-the-mora-tunisia-ii-2026/",
+      "status": "closed",
+      "deadline": null,
+      "organizer": "FIP"
     },
     {
       "id": "FIP-fip-bronze-almeirim-2026",
@@ -192,49 +212,9 @@ window.PADEL_DATA = {
       "city": "Almeirim",
       "venue": "",
       "hostCountry": "Portugal",
-      "startDate": "2026-09-28",
+      "startDate": "2026-10-01",
       "endDate": "2026-10-04",
       "url": "https://www.padelfip.com/events/fip-bronze-almeirim-2026/",
-      "status": "closed",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-pakistan-i-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Pakistan I",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Karachi",
-      "venue": "",
-      "hostCountry": "Pakistan",
-      "startDate": "2026-09-28",
-      "endDate": "2026-10-04",
-      "url": "https://www.padelfip.com/events/fip-bronze-pakistan-i-2026/",
-      "status": "closed",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-tunisia-ii-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Tunisia II",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Tunisia",
-      "venue": "",
-      "hostCountry": "Tunisia",
-      "startDate": "2026-09-30",
-      "endDate": "2026-10-04",
-      "url": "https://www.padelfip.com/events/fip-bronze-tunisia-ii-2026/",
       "status": "closed",
       "deadline": null,
       "organizer": "FIP"
@@ -250,10 +230,7 @@ window.PADEL_DATA = {
       "classes": [
         "MA2",
         "NA2",
-        "MC1",
-        "NC1",
-        "MD1",
-        "ND1"
+        "NC1"
       ],
       "gender": "open",
       "city": "Kaarina",
@@ -267,6 +244,26 @@ window.PADEL_DATA = {
       "organizer": "ÅLK-Padel"
     },
     {
+      "id": "FIP-fip-bronze-pakistan-i-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Pakistan I",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Karachi",
+      "venue": "",
+      "hostCountry": "Pakistan",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-04",
+      "url": "https://www.padelfip.com/events/fip-bronze-pakistan-i-2026/",
+      "status": "closed",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
       "id": "SPL-7305",
       "country": "FI",
       "countryName": "Finland",
@@ -276,9 +273,7 @@ window.PADEL_DATA = {
       "tier": "Nationals",
       "classes": [
         "MD1",
-        "ND1",
-        "ME",
-        "NE"
+        "ND1"
       ],
       "gender": "open",
       "city": "Mikkeli",
@@ -398,10 +393,9 @@ window.PADEL_DATA = {
       "name": "Kansalliset kilpailut 3-4.10.2026 MD1 ja ND1",
       "tier": "Nationals",
       "classes": [
-        "MD1",
         "ND1"
       ],
-      "gender": "open",
+      "gender": "women",
       "city": "Hämeenlinna",
       "venue": "",
       "hostCountry": "Finland",
@@ -1618,9 +1612,9 @@ window.PADEL_DATA = {
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
-      "city": "Tbc",
+      "city": "Ayia Napa / Cyprus",
       "venue": "",
-      "hostCountry": "Cyprus",
+      "hostCountry": "",
       "startDate": "2026-10-26",
       "endDate": "2026-11-01",
       "url": "https://www.padelfip.com/events/fip-bronze-cyprus-iii-2026/",
@@ -2020,9 +2014,9 @@ window.PADEL_DATA = {
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
-      "city": "Tbc",
+      "city": "Ayia Napa / Cyprus",
       "venue": "",
-      "hostCountry": "Cyprus",
+      "hostCountry": "",
       "startDate": "2026-11-02",
       "endDate": "2026-11-08",
       "url": "https://www.padelfip.com/events/fip-bronze-cyprus-iv-2026/",
