@@ -1,14 +1,14 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-09-26T09:16:56Z",
+  "generatedAt": "2026-09-27T09:56:33Z",
   "sources": [
     {
       "id": "EPL",
       "name": "Eesti Padeli Liit (Rankedin)",
       "url": "https://www.rankedin.com/en/organisation/calendar/1763/eesti-padeli-liit",
-      "count": 13,
+      "count": 12,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-26T09:16:44Z"
+      "fetchedAt": "2026-09-27T09:56:23Z"
     },
     {
       "id": "SPL",
@@ -17,16 +17,16 @@ window.PADEL_DATA = {
       "count": 126,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-26T09:16:52Z"
+      "fetchedAt": "2026-09-27T09:56:29Z"
     },
     {
       "id": "LPF",
       "name": "Latvijas Padel Federacija (padelfederacija.lv)",
       "url": "https://padelfederacija.lv/lv-LV/tournaments",
-      "count": 6,
+      "count": 5,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-26T09:16:54Z"
+      "fetchedAt": "2026-09-27T09:56:31Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 36,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-26T09:16:56Z"
+      "fetchedAt": "2026-09-27T09:56:33Z"
     }
   ],
   "tournaments": [
@@ -120,46 +120,6 @@ window.PADEL_DATA = {
       "organizer": "FIP"
     },
     {
-      "id": "EPL-74411",
-      "country": "EE",
-      "countryName": "Estonia",
-      "source": "EPL",
-      "sourceName": "Eesti Padeli Liit",
-      "name": "Meeste C-liiga, 5. etapp",
-      "tier": "C-liiga",
-      "classes": [],
-      "gender": "men",
-      "city": "Tallinn",
-      "venue": "Cool Padel",
-      "hostCountry": "Estonia",
-      "startDate": "2026-09-26",
-      "endDate": "2026-09-26",
-      "url": "https://www.rankedin.com/en/tournament/74411/epl-meeste-c-liiga-5-etapp-cool-padel-9344",
-      "status": "live",
-      "deadline": "2026-09-23",
-      "organizer": "Eesti Padeli Liit"
-    },
-    {
-      "id": "LPF-11617",
-      "country": "LV",
-      "countryName": "Latvia",
-      "source": "LPF",
-      "sourceName": "Latvijas Padel Federacija",
-      "name": "Golden Point Arena KIDS Padel Festival 2026",
-      "tier": "Other",
-      "classes": [],
-      "gender": "open",
-      "city": "Rīga",
-      "venue": "Golden Point Arēna KIDS Festival 2026",
-      "hostCountry": "Latvia",
-      "startDate": "2026-09-26",
-      "endDate": "2026-09-26",
-      "url": "https://padelfederacija.lv/lv-LV/tournament/11617",
-      "status": "live",
-      "deadline": "2026-09-24",
-      "organizer": "Latvijas Padel Federācija"
-    },
-    {
       "id": "EPL-73183",
       "country": "EE",
       "countryName": "Estonia",
@@ -174,8 +134,8 @@ window.PADEL_DATA = {
       "hostCountry": "Estonia",
       "startDate": "2026-09-27",
       "endDate": "2026-09-27",
-      "url": "https://www.rankedin.com/en/tournament/73183/epl-elizabeth-arden-naiste-b-liiga-4-etapp-cool-padel",
-      "status": "closed",
+      "url": "https://www.rankedin.com/en/tournament/73183/epl-elizabeth-arden-naiste-b-liiga-4-etapp-cool-padel-7302",
+      "status": "live",
       "deadline": "2026-09-24",
       "organizer": "Eesti Padeli Liit"
     },
