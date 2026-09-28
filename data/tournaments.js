@@ -1,14 +1,14 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-09-27T09:56:33Z",
+  "generatedAt": "2026-09-28T10:46:47Z",
   "sources": [
     {
       "id": "EPL",
       "name": "Eesti Padeli Liit (Rankedin)",
       "url": "https://www.rankedin.com/en/organisation/calendar/1763/eesti-padeli-liit",
-      "count": 12,
+      "count": 11,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-27T09:56:23Z"
+      "fetchedAt": "2026-09-28T10:46:36Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@ window.PADEL_DATA = {
       "count": 126,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-27T09:56:29Z"
+      "fetchedAt": "2026-09-28T10:46:43Z"
     },
     {
       "id": "LPF",
@@ -26,16 +26,16 @@ window.PADEL_DATA = {
       "count": 5,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-27T09:56:31Z"
+      "fetchedAt": "2026-09-28T10:46:45Z"
     },
     {
       "id": "FIP",
       "name": "Cupra FIP Tour calendar (padelfip.com)",
       "url": "https://www.padelfip.com/calendar-cupra-fip-tour/?events-year=2026",
-      "count": 36,
+      "count": 33,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-27T09:56:33Z"
+      "fetchedAt": "2026-09-28T10:46:47Z"
     }
   ],
   "tournaments": [
@@ -58,86 +58,6 @@ window.PADEL_DATA = {
       "status": "live",
       "deadline": "2026-09-16",
       "organizer": ""
-    },
-    {
-      "id": "FIP-fip-bronze-dubai-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Damac Dubai",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Dubai",
-      "venue": "",
-      "hostCountry": "United Arab Emirates",
-      "startDate": "2026-09-22",
-      "endDate": "2026-09-27",
-      "url": "https://www.padelfip.com/events/fip-bronze-dubai-2026/",
-      "status": "live",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-tunisia-i-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Padel Gammarth Tunisia I",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Tunisia",
-      "venue": "",
-      "hostCountry": "Tunisia",
-      "startDate": "2026-09-24",
-      "endDate": "2026-09-27",
-      "url": "https://www.padelfip.com/events/fip-bronze-tunisia-i-2026/",
-      "status": "live",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-vina-del-mar-vii-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Viña del Mar",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Viña del Mar",
-      "venue": "",
-      "hostCountry": "Chile",
-      "startDate": "2026-09-25",
-      "endDate": "2026-09-27",
-      "url": "https://www.padelfip.com/events/fip-bronze-vina-del-mar-vii-2026/",
-      "status": "live",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "EPL-73183",
-      "country": "EE",
-      "countryName": "Estonia",
-      "source": "EPL",
-      "sourceName": "Eesti Padeli Liit",
-      "name": "Naiste B-liiga, 4. etapp",
-      "tier": "B-liiga",
-      "classes": [],
-      "gender": "women",
-      "city": "Tallinn",
-      "venue": "Cool Padel",
-      "hostCountry": "Estonia",
-      "startDate": "2026-09-27",
-      "endDate": "2026-09-27",
-      "url": "https://www.rankedin.com/en/tournament/73183/epl-elizabeth-arden-naiste-b-liiga-4-etapp-cool-padel-7302",
-      "status": "live",
-      "deadline": "2026-09-24",
-      "organizer": "Eesti Padeli Liit"
     },
     {
       "id": "FIP-fip-bronze-the-mora-tunisia-ii-2026",
