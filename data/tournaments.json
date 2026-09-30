@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T10:46:47Z",
+  "generatedAt": "2026-09-30T10:24:20Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@
       "count": 11,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-28T10:46:36Z"
+      "fetchedAt": "2026-09-30T10:24:08Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@
       "count": 126,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-28T10:46:43Z"
+      "fetchedAt": "2026-09-30T10:24:15Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 5,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-28T10:46:45Z"
+      "fetchedAt": "2026-09-30T10:24:18Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 33,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-09-28T10:46:47Z"
+      "fetchedAt": "2026-09-30T10:24:20Z"
     }
   ],
   "tournaments": [
@@ -69,13 +69,13 @@
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
-      "city": "Tunisia",
+      "city": "Tunis",
       "venue": "",
       "hostCountry": "Tunisia",
       "startDate": "2026-09-30",
       "endDate": "2026-10-04",
       "url": "https://www.padelfip.com/events/fip-bronze-the-mora-tunisia-ii-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -442,12 +442,12 @@
       "organizer": "Tornio Padel"
     },
     {
-      "id": "FIP-fip-bronze-copenhagen-2026",
+      "id": "FIP-fip-bronze-dbc-coffee-copenhagen",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Copenhagen",
+      "name": "DBC Coffee Copenhagen",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -456,7 +456,7 @@
       "hostCountry": "Denmark",
       "startDate": "2026-10-05",
       "endDate": "2026-10-11",
-      "url": "https://www.padelfip.com/events/fip-bronze-copenhagen-2026/",
+      "url": "https://www.padelfip.com/events/fip-bronze-dbc-coffee-copenhagen/",
       "status": "closed",
       "deadline": null,
       "organizer": "FIP"
@@ -532,7 +532,7 @@
       "countryName": "Finland",
       "source": "SPL",
       "sourceName": "Suomen Padelliitto",
-      "name": "FPT Silver LAHTI",
+      "name": "FPT Silver LAHTI x Teivaan Hehku",
       "tier": "FPT Silver",
       "classes": [
         "MFPTS",
@@ -687,6 +687,33 @@
       "organizer": "Hyvinkään NMPY ry"
     },
     {
+      "id": "SPL-7103",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Skull Padel Racket Test Day – Kansalliset C1, D1 & E",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Pori",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-10",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-box-padel-pori-mc1-nc1-md1-nd1-me-ja-ne-7100",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Box Padel Pori"
+    },
+    {
       "id": "EPL-73176",
       "country": "EE",
       "countryName": "Estonia",
@@ -803,40 +830,13 @@
       "organizer": "Orimattilan Jymy"
     },
     {
-      "id": "SPL-7103",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Skull Padel Racket Test Day – Kansalliset C1, D1 & E",
-      "tier": "Nationals",
-      "classes": [
-        "MC1",
-        "NC1",
-        "MD1",
-        "ND1",
-        "ME",
-        "NE"
-      ],
-      "gender": "open",
-      "city": "Pori",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-11",
-      "url": "https://www.padelution.com/events/kansalliset-kilpailut-box-padel-pori-mc1-nc1-md1-nd1-me-ja-ne-7100",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "Box Padel Pori"
-    },
-    {
       "id": "LPF-9319",
       "country": "LV",
       "countryName": "Latvia",
       "source": "LPF",
       "sourceName": "Latvijas Padel Federacija",
-      "name": "Golden Point Arēna Open",
-      "tier": "Gold",
+      "name": "GOLD   I   Golden Point Arēna Open",
+      "tier": "Other",
       "classes": [],
       "gender": "open",
       "city": "Rīga",
@@ -850,12 +850,12 @@
       "organizer": "Latvijas Padel Federācija"
     },
     {
-      "id": "FIP-fip-bronze-contonu-2026",
+      "id": "FIP-fip-bronze-contonou-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Cotonú",
+      "name": "Cotonou",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -864,7 +864,7 @@
       "hostCountry": "Benin",
       "startDate": "2026-10-12",
       "endDate": "2026-10-18",
-      "url": "https://www.padelfip.com/events/fip-bronze-contonu-2026/",
+      "url": "https://www.padelfip.com/events/fip-bronze-contonou-2026/",
       "status": "open",
       "deadline": null,
       "organizer": "FIP"
@@ -1012,7 +1012,6 @@
       "classes": [
         "MC1",
         "MD1",
-        "ME",
         "NC1",
         "ND1",
         "NE"
@@ -2172,17 +2171,17 @@
       "startDate": "2026-11-09",
       "endDate": "2026-11-15",
       "url": "https://www.padelfip.com/events/fip-bronze-doha-2026-2/",
-      "status": "upcoming",
+      "status": "open",
       "deadline": null,
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-kochi-2026",
+      "id": "FIP-fip-bronze-high-velocity-kochi-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Kochi",
+      "name": "High Velocity Kochi",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -2191,8 +2190,8 @@
       "hostCountry": "India",
       "startDate": "2026-11-09",
       "endDate": "2026-11-15",
-      "url": "https://www.padelfip.com/events/fip-bronze-kochi-2026/",
-      "status": "upcoming",
+      "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-kochi-2026/",
+      "status": "open",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -2212,7 +2211,7 @@
       "startDate": "2026-11-09",
       "endDate": "2026-11-15",
       "url": "https://www.padelfip.com/events/fip-bronze-pala-padel-nola-2026/",
-      "status": "upcoming",
+      "status": "open",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -2632,12 +2631,12 @@
       "organizer": "Latvijas Padel Federācija"
     },
     {
-      "id": "FIP-fip-bronze-acra-2026",
+      "id": "FIP-fip-bronze-accra-ghana-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Acra",
+      "name": "Accra - Ghana",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -2646,7 +2645,7 @@
       "hostCountry": "Ghana",
       "startDate": "2026-11-16",
       "endDate": "2026-11-22",
-      "url": "https://www.padelfip.com/events/fip-bronze-acra-2026/",
+      "url": "https://www.padelfip.com/events/fip-bronze-accra-ghana-2026/",
       "status": "upcoming",
       "deadline": null,
       "organizer": "FIP"
@@ -2792,12 +2791,12 @@
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-comunidad-valenciana-ix-2026",
+      "id": "FIP-fip-bronze-denia-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Comunidad Valenciana IX",
+      "name": "Denia",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -2806,7 +2805,7 @@
       "hostCountry": "Spain",
       "startDate": "2026-11-23",
       "endDate": "2026-11-29",
-      "url": "https://www.padelfip.com/events/fip-bronze-comunidad-valenciana-ix-2026/",
+      "url": "https://www.padelfip.com/events/fip-bronze-denia-2026/",
       "status": "upcoming",
       "deadline": null,
       "organizer": "FIP"
@@ -2832,12 +2831,12 @@
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-phuket-ii-2026",
+      "id": "FIP-fip-bronze-high-velocity-phuket-2026-2",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Phuket II",
+      "name": "High Velocity Phuket",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -2846,7 +2845,7 @@
       "hostCountry": "Thailand",
       "startDate": "2026-11-23",
       "endDate": "2026-11-29",
-      "url": "https://www.padelfip.com/events/fip-bronze-phuket-ii-2026/",
+      "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-phuket-2026-2/",
       "status": "upcoming",
       "deadline": null,
       "organizer": "FIP"
@@ -2900,7 +2899,7 @@
       "countryName": "Finland",
       "source": "SPL",
       "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kilpailut - Kuopio",
+      "name": "FITIS PADEL OPEN 2026 Kansalliset kilpailut - Kuopio",
       "tier": "Nationals",
       "classes": [
         "MB1",
@@ -2908,11 +2907,7 @@
         "MC1",
         "NC1",
         "ME",
-        "NE",
-        "P16",
-        "T16",
-        "P14",
-        "T14"
+        "NE"
       ],
       "gender": "open",
       "city": "Kuopio",
