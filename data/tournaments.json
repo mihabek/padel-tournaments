@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T09:47:25Z",
+  "generatedAt": "2026-10-04T10:30:49Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,16 +8,16 @@
       "count": 11,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-03T09:47:14Z"
+      "fetchedAt": "2026-10-04T10:30:37Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 178,
+      "count": 176,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-03T09:47:22Z"
+      "fetchedAt": "2026-10-04T10:30:44Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 5,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-03T09:47:24Z"
+      "fetchedAt": "2026-10-04T10:30:47Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 34,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-03T09:47:25Z"
+      "fetchedAt": "2026-10-04T10:30:49Z"
     }
   ],
   "tournaments": [
@@ -142,54 +142,6 @@
       "status": "live",
       "deadline": null,
       "organizer": "FIP"
-    },
-    {
-      "id": "SPL-7305",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kilpailut Mikkelissä, MD1/E, ND1/E - Play Padel Players",
-      "tier": "Nationals",
-      "classes": [
-        "MD1",
-        "ND1"
-      ],
-      "gender": "open",
-      "city": "Mikkeli",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-03",
-      "url": "https://www.padelution.com/events/kansalliset-kilpailut-mikkelissa-md1e-nd1e-play-padel-players-7302",
-      "status": "live",
-      "deadline": null,
-      "organizer": "Play Padel Players ry"
-    },
-    {
-      "id": "SPL-7610",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Yhden päivän kansalliset kilpailut @ House of Games",
-      "tier": "Nationals",
-      "classes": [
-        "MD1",
-        "ME",
-        "ND1",
-        "NE"
-      ],
-      "gender": "open",
-      "city": "Espoo",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-03",
-      "url": "https://www.padelution.com/events/yhden-paivan-kansalliset-kilpailut-at-house-of-games-7607",
-      "status": "live",
-      "deadline": null,
-      "organizer": "House of Padel ry"
     },
     {
       "id": "SPL-7317",
