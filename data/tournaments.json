@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T11:21:05Z",
+  "generatedAt": "2026-10-06T11:10:27Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,16 +8,16 @@
       "count": 11,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-05T11:20:54Z"
+      "fetchedAt": "2026-10-06T11:10:13Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 180,
+      "count": 188,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-05T11:21:02Z"
+      "fetchedAt": "2026-10-06T11:10:22Z"
     },
     {
       "id": "LPF",
@@ -26,16 +26,16 @@
       "count": 5,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-05T11:21:04Z"
+      "fetchedAt": "2026-10-06T11:10:24Z"
     },
     {
       "id": "FIP",
       "name": "Cupra FIP Tour calendar (padelfip.com)",
       "url": "https://www.padelfip.com/calendar-cupra-fip-tour/?events-year=2026",
-      "count": 31,
+      "count": 30,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-05T11:21:05Z"
+      "fetchedAt": "2026-10-06T11:10:27Z"
     }
   ],
   "tournaments": [
@@ -58,33 +58,6 @@
       "status": "live",
       "deadline": "2026-09-16",
       "organizer": ""
-    },
-    {
-      "id": "SPL-7261",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kisat Tornio padel by Sulpadel Kemi",
-      "tier": "Nationals",
-      "classes": [
-        "MD1",
-        "ND1",
-        "ME",
-        "NE",
-        "NC1",
-        "MC1"
-      ],
-      "gender": "open",
-      "city": "Kemi",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-05",
-      "url": "https://www.padelution.com/events/kansalliset-kisat-by-sulpadel-7258",
-      "status": "live",
-      "deadline": null,
-      "organizer": "Tornio Padel"
     },
     {
       "id": "FIP-fip-bronze-dbc-coffee-copenhagen",
@@ -1186,12 +1159,12 @@
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-de-uzbekistan",
+      "id": "FIP-fip-bronze-tashkent-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Uzbekistan",
+      "name": "Tashkent",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -1200,7 +1173,7 @@
       "hostCountry": "Uzbekistan",
       "startDate": "2026-10-26",
       "endDate": "2026-11-01",
-      "url": "https://www.padelfip.com/events/fip-bronze-de-uzbekistan/",
+      "url": "https://www.padelfip.com/events/fip-bronze-tashkent-2026/",
       "status": "open",
       "deadline": null,
       "organizer": "FIP"
@@ -1991,31 +1964,6 @@
       "organizer": "Champions Padel ry"
     },
     {
-      "id": "SPL-7263",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kisat Tornio Padel by Sulpadel",
-      "tier": "Nationals",
-      "classes": [
-        "MC1",
-        "NC1",
-        "MD1",
-        "ND1"
-      ],
-      "gender": "open",
-      "city": "Kemi",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-11-13",
-      "endDate": "2026-11-15",
-      "url": "https://www.padelution.com/events/kansalliset-kisat-by-sulpadel-7260",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "Tornio Padel"
-    },
-    {
       "id": "SPL-7315",
       "country": "FI",
       "countryName": "Finland",
@@ -2203,6 +2151,31 @@
       "organizer": "Lappeenrannan Padelseura ry"
     },
     {
+      "id": "SPL-7263",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kisat Tornio Padel by Sulpadel",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Kemi",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "url": "https://www.padelution.com/events/kansalliset-kisat-by-sulpadel-7260",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Tornio Padel"
+    },
+    {
       "id": "SPL-7256",
       "country": "FI",
       "countryName": "Finland",
@@ -2284,12 +2257,32 @@
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
-      "city": "Acra",
+      "city": "Accra",
       "venue": "",
       "hostCountry": "Ghana",
       "startDate": "2026-11-16",
       "endDate": "2026-11-22",
       "url": "https://www.padelfip.com/events/fip-bronze-accra-ghana-2026/",
+      "status": "open",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
+      "id": "FIP-fip-bronze-chile-ix-2026-2",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Chile IX",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "San Antonio",
+      "venue": "",
+      "hostCountry": "Chile",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "url": "https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/",
       "status": "open",
       "deadline": null,
       "organizer": "FIP"
@@ -2315,12 +2308,12 @@
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-karachi-2026",
+      "id": "FIP-fip-bronze-karachi-ii-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Karachi",
+      "name": "Karachi II",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -2329,7 +2322,7 @@
       "hostCountry": "Pakistan",
       "startDate": "2026-11-16",
       "endDate": "2026-11-22",
-      "url": "https://www.padelfip.com/events/fip-bronze-karachi-2026/",
+      "url": "https://www.padelfip.com/events/fip-bronze-karachi-ii-2026/",
       "status": "open",
       "deadline": null,
       "organizer": "FIP"
@@ -2435,26 +2428,6 @@
       "organizer": "Eesti Padeli Liit"
     },
     {
-      "id": "FIP-fip-bronze-chile-ix-2026-2",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Chile IX",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Tbc",
-      "venue": "",
-      "hostCountry": "Chile",
-      "startDate": "2026-11-23",
-      "endDate": "2026-11-29",
-      "url": "https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
       "id": "FIP-fip-bronze-denia-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -2470,26 +2443,6 @@
       "startDate": "2026-11-23",
       "endDate": "2026-11-29",
       "url": "https://www.padelfip.com/events/fip-bronze-denia-2026/",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-egypt-vi-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Egypt V",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Tbc",
-      "venue": "",
-      "hostCountry": "Egypt",
-      "startDate": "2026-11-23",
-      "endDate": "2026-11-29",
-      "url": "https://www.padelfip.com/events/fip-bronze-egypt-vi-2026/",
       "status": "upcoming",
       "deadline": null,
       "organizer": "FIP"
@@ -3285,33 +3238,6 @@
       "organizer": "Eesti Padeli Liit"
     },
     {
-      "id": "SPL-7221",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset Kilpailut by Poropadel C1-, D1- ja E-luokat",
-      "tier": "Nationals",
-      "classes": [
-        "MC1",
-        "NC1",
-        "MD1",
-        "ND1",
-        "ME",
-        "NE"
-      ],
-      "gender": "open",
-      "city": "Oulu",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-12-11",
-      "endDate": "2026-12-13",
-      "url": "https://www.padelution.com/events/kansalliset-kilpailut-by-poropadel-c1-d1-ja-e-luokat-7218",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "Poropadel"
-    },
-    {
       "id": "SPL-7357",
       "country": "FI",
       "countryName": "Finland",
@@ -3418,6 +3344,33 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Box Padel Pori"
+    },
+    {
+      "id": "SPL-7221",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Kilpailut by Poropadel C1-, D1- ja E-luokat",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Oulu",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2026-12-12",
+      "endDate": "2026-12-13",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-by-poropadel-c1-d1-ja-e-luokat-7218",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Poropadel"
     },
     {
       "id": "SPL-7248",
@@ -4066,6 +4019,31 @@
       "organizer": "Pori Padel ry"
     },
     {
+      "id": "SPL-7814",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "PadelMarina x Kansalliset kisat 16.-17.1.2027 MC1 / NC1 / ME / NE",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Hollola",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-01-16",
+      "endDate": "2027-01-17",
+      "url": "https://www.padelution.com/events/padelmarina-x-kansalliset-kisat-16-1712027-mc1-nc1-me-ne-7811",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Hollola ry"
+    },
+    {
       "id": "SPL-7732",
       "country": "FI",
       "countryName": "Finland",
@@ -4220,6 +4198,54 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Periferian Padel ry"
+    },
+    {
+      "id": "SPL-7798",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut, Salo (MC1,NC1,MD1,ND1)",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Salo",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-06",
+      "endDate": "2027-02-07",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-salo-mc1nc1md1nd1-7795",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Gancho Ry"
+    },
+    {
+      "id": "SPL-7801",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Orimattila Open | Kansalliset",
+      "tier": "Nationals",
+      "classes": [
+        "ND1",
+        "MD2"
+      ],
+      "gender": "open",
+      "city": "Orimattila",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-06",
+      "endDate": "2027-02-07",
+      "url": "https://www.padelution.com/events/orimattila-open-kansalliset-7798",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Orimattilan Jymy"
     },
     {
       "id": "SPL-7782",
@@ -4424,6 +4450,31 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Open Padel ry"
+    },
+    {
+      "id": "SPL-7799",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut, Salo (MD1,ND1,ME,NE)",
+      "tier": "Nationals",
+      "classes": [
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Salo",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-06",
+      "endDate": "2027-03-07",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-salo-md1nd1mene-7796",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Gancho Ry"
     },
     {
       "id": "SPL-7727",
@@ -4976,6 +5027,56 @@
       "organizer": "Open Padel ry"
     },
     {
+      "id": "SPL-7800",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut, Salo (MD1,ND1,ME,NE)",
+      "tier": "Nationals",
+      "classes": [
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Salo",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-24",
+      "endDate": "2027-04-25",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-salo-md1nd1mene-7797",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Gancho Ry"
+    },
+    {
+      "id": "SPL-7815",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kisat 24.-25.4.2027 - MC2 / NC2 / MD2 / ND2",
+      "tier": "Nationals",
+      "classes": [
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Hollola",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-24",
+      "endDate": "2027-04-25",
+      "url": "https://www.padelution.com/events/kansalliset-kisat-24-2542027-mc2-nc2-md2-nd2-7812",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Hollola ry"
+    },
+    {
       "id": "SPL-7705",
       "country": "FI",
       "countryName": "Finland",
@@ -4999,6 +5100,29 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Porvoon Padel ry"
+    },
+    {
+      "id": "SPL-7802",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Orimattila Open | Kansalliset",
+      "tier": "Nationals",
+      "classes": [
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Orimattila",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-06",
+      "endDate": "2027-05-06",
+      "url": "https://www.padelution.com/events/orimattila-open-kansalliset-7799",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Orimattilan Jymy"
     },
     {
       "id": "SPL-7742",
@@ -5208,6 +5332,31 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Porvoon Padel ry"
+    },
+    {
+      "id": "SPL-7803",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Orimattila Open | Kansalliset",
+      "tier": "Nationals",
+      "classes": [
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Orimattila",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-22",
+      "endDate": "2027-05-23",
+      "url": "https://www.padelution.com/events/orimattila-open-kansalliset-7800",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Orimattilan Jymy"
     },
     {
       "id": "SPL-7739",
@@ -5505,6 +5654,29 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Porvoon Padel ry"
+    },
+    {
+      "id": "SPL-7804",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Orimattila Open | Kansalliset",
+      "tier": "Nationals",
+      "classes": [
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Orimattila",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-06-19",
+      "endDate": "2027-06-20",
+      "url": "https://www.padelution.com/events/orimattila-open-kansalliset-7801",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Orimattilan Jymy"
     },
     {
       "id": "SPL-7761",
