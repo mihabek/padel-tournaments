@@ -1,5 +1,5 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-10-06T11:10:27Z",
+  "generatedAt": "2026-10-07T10:58:42Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,25 +8,25 @@ window.PADEL_DATA = {
       "count": 11,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-06T11:10:13Z"
+      "fetchedAt": "2026-10-07T10:58:28Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 188,
+      "count": 192,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-06T11:10:22Z"
+      "fetchedAt": "2026-10-07T10:58:37Z"
     },
     {
       "id": "LPF",
       "name": "Latvijas Padel Federacija (padelfederacija.lv)",
       "url": "https://padelfederacija.lv/lv-LV/tournaments",
-      "count": 5,
+      "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-06T11:10:24Z"
+      "fetchedAt": "2026-10-07T10:58:40Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 30,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-06T11:10:27Z"
+      "fetchedAt": "2026-10-07T10:58:42Z"
     }
   ],
   "tournaments": [
@@ -75,7 +75,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-07",
       "endDate": "2026-10-11",
       "url": "https://www.padelfip.com/events/fip-bronze-dbc-coffee-copenhagen/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -95,7 +95,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-07",
       "endDate": "2026-10-11",
       "url": "https://www.padelfip.com/events/fip-bronze-rovigo-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -462,7 +462,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-10",
       "endDate": "2026-10-11",
       "url": "https://padelfederacija.lv/lv-LV/tournament/9319",
-      "status": "open",
+      "status": "closed",
       "deadline": "2026-10-06",
       "organizer": "Latvijas Padel Federācija"
     },
@@ -507,6 +507,26 @@ window.PADEL_DATA = {
       "organizer": "FIP"
     },
     {
+      "id": "FIP-fip-bronze-interpadel-open-oslo-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Interpadel Open Oslo",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Oslo",
+      "venue": "",
+      "hostCountry": "Norway",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "url": "https://www.padelfip.com/events/fip-bronze-interpadel-open-oslo-2026/",
+      "status": "closed",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
       "id": "FIP-fip-bronze-oeiras-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -522,26 +542,6 @@ window.PADEL_DATA = {
       "startDate": "2026-10-12",
       "endDate": "2026-10-18",
       "url": "https://www.padelfip.com/events/fip-bronze-oeiras-2026/",
-      "status": "closed",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-oslo-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Oslo",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Oslo",
-      "venue": "",
-      "hostCountry": "Norway",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-18",
-      "url": "https://www.padelfip.com/events/fip-bronze-oslo-2026/",
       "status": "closed",
       "deadline": null,
       "organizer": "FIP"
@@ -900,7 +900,7 @@ window.PADEL_DATA = {
       "countryName": "Finland",
       "source": "SPL",
       "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset Kilpailut, Espoo 23.-25.10.",
+      "name": "Kansalliset Kilpailut,Espoo 23.-25.10.",
       "tier": "Nationals",
       "classes": [
         "MC1",
@@ -1099,6 +1099,26 @@ window.PADEL_DATA = {
       "organizer": "Padel West Ry"
     },
     {
+      "id": "LPF-11740",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "Padelstar bērnu un jauniešu padel festivāls 2026",
+      "tier": "Other",
+      "classes": [],
+      "gender": "open",
+      "city": "Rīga",
+      "venue": "Padelstar Teika",
+      "hostCountry": "Latvia",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11740",
+      "status": "open",
+      "deadline": "2026-10-20",
+      "organizer": "Latvijas Padel Federācija"
+    },
+    {
       "id": "FIP-fip-bronze-cyprus-iii-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -1179,6 +1199,26 @@ window.PADEL_DATA = {
       "organizer": "FIP"
     },
     {
+      "id": "LPF-9316",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "MH Padel Open",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Mārupe",
+      "venue": "MH Padel II",
+      "hostCountry": "Latvia",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-31",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/9316",
+      "status": "open",
+      "deadline": "2026-10-27",
+      "organizer": "Latvijas Padel Federācija"
+    },
+    {
       "id": "SPL-6478",
       "country": "FI",
       "countryName": "Finland",
@@ -1206,32 +1246,12 @@ window.PADEL_DATA = {
       "city": "Turku",
       "venue": "",
       "hostCountry": "Finland",
-      "startDate": "2026-10-29",
+      "startDate": "2026-10-30",
       "endDate": "2026-11-01",
       "url": "https://www.padelution.com/events/finnish-padel-tour-fpt-gold-4-babolat-junior-tour-4-kansalliset-kilpailut-cd-boost-sports-club-6475",
       "status": "upcoming",
       "deadline": null,
       "organizer": "Boost Academy ry"
-    },
-    {
-      "id": "LPF-9316",
-      "country": "LV",
-      "countryName": "Latvia",
-      "source": "LPF",
-      "sourceName": "Latvijas Padel Federacija",
-      "name": "MH Padel Open",
-      "tier": "Gold",
-      "classes": [],
-      "gender": "open",
-      "city": "Mārupe",
-      "venue": "MH Padel II",
-      "hostCountry": "Latvia",
-      "startDate": "2026-10-30",
-      "endDate": "2026-10-31",
-      "url": "https://padelfederacija.lv/lv-LV/tournament/9316",
-      "status": "open",
-      "deadline": "2026-10-27",
-      "organizer": "Latvijas Padel Federācija"
     },
     {
       "id": "SPL-7349",
@@ -3969,6 +3989,29 @@ window.PADEL_DATA = {
       "organizer": "Padel JKL ry"
     },
     {
+      "id": "SPL-7817",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Smash-Kotka tammikuun päiväkisa",
+      "tier": "Nationals",
+      "classes": [
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Kotka",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-01-16",
+      "endDate": "2027-01-16",
+      "url": "https://www.padelution.com/events/smash-kotka-tammikuun-paivakisa-7814",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Smash-Kotka"
+    },
+    {
       "id": "SPL-7788",
       "country": "FI",
       "countryName": "Finland",
@@ -4425,6 +4468,39 @@ window.PADEL_DATA = {
       "organizer": "PLPG"
     },
     {
+      "id": "SPL-7816",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut Kuopio",
+      "tier": "Nationals",
+      "classes": [
+        "MB2",
+        "NB2",
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2",
+        "P16",
+        "T16",
+        "P14",
+        "T14",
+        "P12",
+        "T12"
+      ],
+      "gender": "open",
+      "city": "Kuopio",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-05",
+      "endDate": "2027-03-07",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-kuopio-7813",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Sawo ry"
+    },
+    {
       "id": "SPL-7755",
       "country": "FI",
       "countryName": "Finland",
@@ -4747,6 +4823,29 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Porvoon Padel ry"
+    },
+    {
+      "id": "SPL-7818",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Smash-Kotka maaliskuun päiväkisa",
+      "tier": "Nationals",
+      "classes": [
+        "NC1",
+        "MD1"
+      ],
+      "gender": "open",
+      "city": "Kotka",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-27",
+      "endDate": "2027-03-27",
+      "url": "https://www.padelution.com/events/smash-kotka-maaliskuun-paivakisa-7815",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Smash-Kotka"
     },
     {
       "id": "SPL-7756",
@@ -5177,6 +5276,29 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "House of Padel ry"
+    },
+    {
+      "id": "SPL-7819",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Smash-Kotka toukokuun päiväkisa",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1"
+      ],
+      "gender": "open",
+      "city": "Kotka",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-15",
+      "endDate": "2027-05-15",
+      "url": "https://www.padelution.com/events/smash-kotka-toukokuun-paivakisa-7816",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Smash-Kotka"
     },
     {
       "id": "SPL-7758",
