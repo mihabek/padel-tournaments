@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T10:58:42Z",
+  "generatedAt": "2026-10-08T11:15:57Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,16 +8,16 @@
       "count": 11,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-07T10:58:28Z"
+      "fetchedAt": "2026-10-08T11:15:44Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 192,
+      "count": 197,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-07T10:58:37Z"
+      "fetchedAt": "2026-10-08T11:15:51Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-07T10:58:40Z"
+      "fetchedAt": "2026-10-08T11:15:55Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 30,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-07T10:58:42Z"
+      "fetchedAt": "2026-10-08T11:15:57Z"
     }
   ],
   "tournaments": [
@@ -346,7 +346,7 @@
       "startDate": "2026-10-10",
       "endDate": "2026-10-11",
       "url": "https://www.rankedin.com/en/tournament/73176/epl-meeste-b-liiga-6-etapp-padel-arenas",
-      "status": "open",
+      "status": "closed",
       "deadline": "2026-10-07",
       "organizer": "Eesti Padeli Liit"
     },
@@ -507,26 +507,6 @@
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-interpadel-open-oslo-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Interpadel Open Oslo",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Oslo",
-      "venue": "",
-      "hostCountry": "Norway",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-18",
-      "url": "https://www.padelfip.com/events/fip-bronze-interpadel-open-oslo-2026/",
-      "status": "closed",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
       "id": "FIP-fip-bronze-oeiras-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -567,6 +547,26 @@
       "organizer": "FIP"
     },
     {
+      "id": "FIP-fip-bronze-interpadel-open-oslo-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Interpadel Open Oslo",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Oslo",
+      "venue": "",
+      "hostCountry": "Norway",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-18",
+      "url": "https://www.padelfip.com/events/fip-bronze-interpadel-open-oslo-2026/",
+      "status": "closed",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
       "id": "SPL-7229",
       "country": "FI",
       "countryName": "Finland",
@@ -600,7 +600,6 @@
       "name": "Kansalliset Kilpailut C, D & E | Padel Tampere",
       "tier": "Nationals",
       "classes": [
-        "MC1",
         "MD1",
         "NC1",
         "ND1",
@@ -1541,12 +1540,12 @@
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-finland-2026",
+      "id": "FIP-fip-bronze-esc-padel-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Finland II",
+      "name": "Esc Padel",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -1555,7 +1554,7 @@
       "hostCountry": "Finland",
       "startDate": "2026-11-02",
       "endDate": "2026-11-08",
-      "url": "https://www.padelfip.com/events/fip-bronze-finland-2026/",
+      "url": "https://www.padelfip.com/events/fip-bronze-esc-padel-2026/",
       "status": "open",
       "deadline": null,
       "organizer": "FIP"
@@ -2606,29 +2605,6 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "PLPG"
-    },
-    {
-      "id": "SPL-7272",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kilpailut 28.11 | Padel Raahe",
-      "tier": "Nationals",
-      "classes": [
-        "ME",
-        "NE"
-      ],
-      "gender": "open",
-      "city": "Raahe",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-11-28",
-      "endDate": "2026-11-28",
-      "url": "https://www.padelution.com/events/kansalliset-kisat-raahessa-7269",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "Padel Raahe"
     },
     {
       "id": "SPL-7342",
@@ -3854,6 +3830,29 @@
       "organizer": "BadSmashes Ry"
     },
     {
+      "id": "SPL-7820",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Smash Kansalliset Purossa",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1"
+      ],
+      "gender": "open",
+      "city": "Helsinki",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2026-12-28",
+      "endDate": "2026-12-28",
+      "url": "https://www.padelution.com/events/smash-kansalliset-purossa-7817",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Smash"
+    },
+    {
       "id": "SPL-7204",
       "country": "FI",
       "countryName": "Finland",
@@ -4389,6 +4388,35 @@
       "organizer": "Padel Lahti ry"
     },
     {
+      "id": "SPL-7834",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Kilpailut B, C, D & E | Padel Tampere",
+      "tier": "Nationals",
+      "classes": [
+        "MB1",
+        "NB1",
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Tampere",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-20",
+      "endDate": "2027-02-20",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-b-c-d-e-padel-tampere-7831",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Tampere"
+    },
+    {
       "id": "SPL-7754",
       "country": "FI",
       "countryName": "Finland",
@@ -4690,6 +4718,33 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Padel JKL ry"
+    },
+    {
+      "id": "SPL-7835",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Kilpailut C, D & E | Padel Tampere",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Tampere",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-20",
+      "endDate": "2027-03-20",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-c-d-e-padel-tampere-7832",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Tampere"
     },
     {
       "id": "SPL-7765",
@@ -5012,6 +5067,33 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Let's Padel Porttipuisto ry"
+    },
+    {
+      "id": "SPL-7836",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Kilpailut C, D & E | Padel Tampere",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Tampere",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-17",
+      "endDate": "2027-04-17",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-c-d-e-padel-tampere-7833",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Tampere"
     },
     {
       "id": "SPL-7710",
@@ -5751,6 +5833,35 @@
       "organizer": "Open Padel ry"
     },
     {
+      "id": "SPL-7837",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Kilpailut B, C, D & E | Padel Tampere",
+      "tier": "Nationals",
+      "classes": [
+        "MB2",
+        "NB2",
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Tampere",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-06-19",
+      "endDate": "2027-06-19",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-b-c-d-e-padel-tampere-7834",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Tampere"
+    },
+    {
       "id": "SPL-7707",
       "country": "FI",
       "countryName": "Finland",
@@ -5946,6 +6057,35 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Open Padel ry"
+    },
+    {
+      "id": "SPL-7838",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Kilpailut A, C, D & E | Padel Tampere",
+      "tier": "Nationals",
+      "classes": [
+        "MA1",
+        "NA1",
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Tampere",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-11-27",
+      "endDate": "2027-11-28",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-a-c-d-e-padel-tampere-7835",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Tampere"
     },
     {
       "id": "SPL-7787",
