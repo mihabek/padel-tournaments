@@ -1,23 +1,23 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-10-08T11:15:57Z",
+  "generatedAt": "2026-10-09T11:14:57Z",
   "sources": [
     {
       "id": "EPL",
       "name": "Eesti Padeli Liit (Rankedin)",
       "url": "https://www.rankedin.com/en/organisation/calendar/1763/eesti-padeli-liit",
-      "count": 11,
+      "count": 10,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-08T11:15:44Z"
+      "fetchedAt": "2026-10-09T11:14:45Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 197,
+      "count": 212,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-08T11:15:51Z"
+      "fetchedAt": "2026-10-09T11:14:54Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-08T11:15:55Z"
+      "fetchedAt": "2026-10-09T11:14:56Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 30,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-08T11:15:57Z"
+      "fetchedAt": "2026-10-09T11:14:57Z"
     }
   ],
   "tournaments": [
@@ -118,7 +118,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-09",
       "endDate": "2026-10-11",
       "url": "https://www.padelution.com/events/fpt-silver-4-6301",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Padel Lahti ry"
     },
@@ -145,7 +145,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-09",
       "endDate": "2026-10-11",
       "url": "https://www.padelution.com/events/kansalliset-c-d-e-kisat-9-11112026-boost-sports-club-7214",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Boost Academy ry"
     },
@@ -180,7 +180,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-09",
       "endDate": "2026-10-11",
       "url": "https://www.padelution.com/events/kansalliset-kilpailut-espoo-9-1010-7355",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "WePadel ry"
     },
@@ -207,7 +207,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-09",
       "endDate": "2026-10-11",
       "url": "https://www.padelution.com/events/porvoon-kansalliset-b1-c2-d2-7108",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Porvoon Padel ry"
     },
@@ -227,7 +227,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-09",
       "endDate": "2026-10-11",
       "url": "https://www.padelfip.com/events/bronze-paraguay-iii-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -329,26 +329,6 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Box Padel Pori"
-    },
-    {
-      "id": "EPL-73176",
-      "country": "EE",
-      "countryName": "Estonia",
-      "source": "EPL",
-      "sourceName": "Eesti Padeli Liit",
-      "name": "Meeste B-liiga, 6. etapp",
-      "tier": "B-liiga",
-      "classes": [],
-      "gender": "men",
-      "city": "Tallinn",
-      "venue": "Padel Arenas",
-      "hostCountry": "Estonia",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-11",
-      "url": "https://www.rankedin.com/en/tournament/73176/epl-meeste-b-liiga-6-etapp-padel-arenas",
-      "status": "closed",
-      "deadline": "2026-10-07",
-      "organizer": "Eesti Padeli Liit"
     },
     {
       "id": "SPL-7333",
@@ -467,46 +447,6 @@ window.PADEL_DATA = {
       "organizer": "Latvijas Padel Federācija"
     },
     {
-      "id": "FIP-fip-bronze-contonou-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Cotonou",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Cotonú",
-      "venue": "",
-      "hostCountry": "Benin",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-18",
-      "url": "https://www.padelfip.com/events/fip-bronze-contonou-2026/",
-      "status": "closed",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-high-velocity-cebu",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "High Velocity Cebu",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Cebu City",
-      "venue": "",
-      "hostCountry": "Philippines",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-18",
-      "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-cebu/",
-      "status": "closed",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
       "id": "FIP-fip-bronze-oeiras-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -527,21 +467,21 @@ window.PADEL_DATA = {
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-racourt-2026",
+      "id": "FIP-fip-bronze-high-velocity-cebu",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Racourt",
+      "name": "High Velocity Cebu",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
-      "city": "Alkmaar",
+      "city": "Cebu City",
       "venue": "",
-      "hostCountry": "Netherlands",
-      "startDate": "2026-10-12",
+      "hostCountry": "Philippines",
+      "startDate": "2026-10-14",
       "endDate": "2026-10-18",
-      "url": "https://www.padelfip.com/events/fip-bronze-racourt-2026/",
+      "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-cebu/",
       "status": "closed",
       "deadline": null,
       "organizer": "FIP"
@@ -562,6 +502,46 @@ window.PADEL_DATA = {
       "startDate": "2026-10-14",
       "endDate": "2026-10-18",
       "url": "https://www.padelfip.com/events/fip-bronze-interpadel-open-oslo-2026/",
+      "status": "closed",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
+      "id": "FIP-fip-bronze-contonou-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Cotonou",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Cotonú",
+      "venue": "",
+      "hostCountry": "Benin",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "url": "https://www.padelfip.com/events/fip-bronze-contonou-2026/",
+      "status": "closed",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
+      "id": "FIP-fip-bronze-racourt-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Racourt",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Alkmaar",
+      "venue": "",
+      "hostCountry": "Netherlands",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "url": "https://www.padelfip.com/events/fip-bronze-racourt-2026/",
       "status": "closed",
       "deadline": null,
       "organizer": "FIP"
@@ -814,26 +794,6 @@ window.PADEL_DATA = {
       "organizer": "Padel Oulu"
     },
     {
-      "id": "FIP-fip-bronze-antalya-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Antalya",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Antalya",
-      "venue": "",
-      "hostCountry": "Türkiye",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-25",
-      "url": "https://www.padelfip.com/events/fip-bronze-antalya-2026/",
-      "status": "open",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
       "id": "FIP-fip-bronze-europabeat-santiago-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -889,6 +849,26 @@ window.PADEL_DATA = {
       "startDate": "2026-10-19",
       "endDate": "2026-10-25",
       "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-samui-2026/",
+      "status": "open",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
+      "id": "FIP-fip-bronze-qnb-cup-antalya-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "QNB Cup Antalya",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Antalya",
+      "venue": "",
+      "hostCountry": "Türkiye",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "url": "https://www.padelfip.com/events/fip-bronze-qnb-cup-antalya-2026/",
       "status": "open",
       "deadline": null,
       "organizer": "FIP"
@@ -1407,7 +1387,7 @@ window.PADEL_DATA = {
       "countryName": "Finland",
       "source": "SPL",
       "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset Kilpailut / XO Center / MC2 & NC2",
+      "name": "Kansalliset Kilpailut / XO Center / MC2 & NC2 - Yhteistyössä Keravan Intersport",
       "tier": "Nationals",
       "classes": [
         "MC2",
@@ -1936,7 +1916,7 @@ window.PADEL_DATA = {
       "countryName": "Finland",
       "source": "SPL",
       "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kilpailut Miehet ja Naiset B/C/D, Padel Adder Ylistönmäki",
+      "name": "Kansalliset kilpailut Miehet ja Naiset B/C/D, Padel Adder Keljo",
       "tier": "Nationals",
       "classes": [
         "MB1",
@@ -2557,31 +2537,6 @@ window.PADEL_DATA = {
       "organizer": "Padel Sawo ry"
     },
     {
-      "id": "SPL-7353",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kilpailut ÅLK-Padel",
-      "tier": "Nationals",
-      "classes": [
-        "MB2",
-        "NB2",
-        "MD2",
-        "ND2"
-      ],
-      "gender": "open",
-      "city": "Turku",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-11-27",
-      "endDate": "2026-11-29",
-      "url": "https://www.padelution.com/events/kansalliset-kilpailut-alk-padel-7350",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "ÅLK-Padel"
-    },
-    {
       "id": "SPL-7155",
       "country": "FI",
       "countryName": "Finland",
@@ -2705,6 +2660,31 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Saimaa Padel Club"
+    },
+    {
+      "id": "SPL-7353",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut ÅLK-Padel",
+      "tier": "Nationals",
+      "classes": [
+        "MB2",
+        "NB2",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Turku",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-29",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-alk-padel-7350",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "ÅLK-Padel"
     },
     {
       "id": "SPL-7284",
@@ -3932,6 +3912,33 @@ window.PADEL_DATA = {
       "organizer": "Porvoon Padel ry"
     },
     {
+      "id": "SPL-7775",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset 40-0 Padel Center, 8-10.1.2027 (C1,D1, E)",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Raisio",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-01-08",
+      "endDate": "2027-01-10",
+      "url": "https://www.padelution.com/events/kansalliset-40-0-padel-center-8-1012027-c1d1-e-7772",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "6-0 ry"
+    },
+    {
       "id": "SPL-7740",
       "country": "FI",
       "countryName": "Finland",
@@ -4161,6 +4168,35 @@ window.PADEL_DATA = {
       "organizer": "House of Padel ry"
     },
     {
+      "id": "SPL-7850",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut @ Bo Arena",
+      "tier": "Nationals",
+      "classes": [
+        "MD2",
+        "ND2",
+        "P16",
+        "T16",
+        "P14",
+        "T14",
+        "P12",
+        "T12"
+      ],
+      "gender": "open",
+      "city": "Kaarina",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-01-30",
+      "endDate": "2027-01-31",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-at-bo-arena-7847",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "ÅLK-Padel"
+    },
+    {
       "id": "SPL-7753",
       "country": "FI",
       "countryName": "Finland",
@@ -4321,7 +4357,7 @@ window.PADEL_DATA = {
       "countryName": "Finland",
       "source": "SPL",
       "sourceName": "Suomen Padelliitto",
-      "name": "Kaarinan Kansalliset",
+      "name": "Kaarinan Kansalliset C1 & D1",
       "tier": "Nationals",
       "classes": [
         "MC1",
@@ -4469,6 +4505,31 @@ window.PADEL_DATA = {
       "organizer": "Seinä-Joe Ry"
     },
     {
+      "id": "SPL-7845",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Poco Loco Kansalliset @ Padel Club Pirkkola / MC1, NC1, MD1 & ND1",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Helsinki",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-20",
+      "endDate": "2027-02-21",
+      "url": "https://www.padelution.com/events/poco-loco-kansalliset-at-padel-club-pirkkola-mc1-nc1-md1-nd1-7842",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Poco Loco Padel ry"
+    },
+    {
       "id": "SPL-7741",
       "country": "FI",
       "countryName": "Finland",
@@ -4606,6 +4667,33 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "TaTS Padel"
+    },
+    {
+      "id": "SPL-7776",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset 40-0 Padel Center, 12-14.3.2027 (A2,C2, D2)",
+      "tier": "Nationals",
+      "classes": [
+        "MA2",
+        "NA2",
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Raisio",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-12",
+      "endDate": "2027-03-14",
+      "url": "https://www.padelution.com/events/kansalliset-40-0-padel-center-12-1432027-a2c2-d2-7773",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "6-0 ry"
     },
     {
       "id": "SPL-7767",
@@ -4772,6 +4860,31 @@ window.PADEL_DATA = {
       "organizer": "Padel Familia ry"
     },
     {
+      "id": "SPL-7851",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kisat by Brämhults Bo Arenalla",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Kaarina",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-20",
+      "endDate": "2027-03-21",
+      "url": "https://www.padelution.com/events/kansalliset-kisat-by-bramhults-bo-arenalle-7848",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "ÅLK-Padel"
+    },
+    {
       "id": "SPL-7794",
       "country": "FI",
       "countryName": "Finland",
@@ -4849,6 +4962,35 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Let's Padel Porttipuisto ry"
+    },
+    {
+      "id": "SPL-7777",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset 40-0 Padel Center, 26-29.3.2027 (B2,C2, D2, E)",
+      "tier": "Nationals",
+      "classes": [
+        "MB2",
+        "NB2",
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Raisio",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-26",
+      "endDate": "2027-03-29",
+      "url": "https://www.padelution.com/events/kansalliset-40-0-padel-center-26-2932027-b2c2-d2-e-7774",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "6-0 ry"
     },
     {
       "id": "SPL-7704",
@@ -4990,6 +5132,30 @@ window.PADEL_DATA = {
       "organizer": "Kotone Sport Ry"
     },
     {
+      "id": "SPL-7730",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Akaan Kansalliset C2 & ND1",
+      "tier": "Nationals",
+      "classes": [
+        "MC2",
+        "NC2",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Akaa",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-10",
+      "endDate": "2027-04-11",
+      "url": "https://www.padelution.com/events/akaan-kansalliset-c2-nd1-7727",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "BadSmashes Ry"
+    },
+    {
       "id": "SPL-7795",
       "country": "FI",
       "countryName": "Finland",
@@ -5121,6 +5287,60 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Padel Lahti ry"
+    },
+    {
+      "id": "SPL-7842",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Padel Oulu kansalliset kilpailut 17.-18.4.2027",
+      "tier": "Nationals",
+      "classes": [
+        "MB1",
+        "NB1",
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Kempele",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-17",
+      "endDate": "2027-04-18",
+      "url": "https://www.padelution.com/events/padel-oulu-kansalliset-kilpailut-17-1842027-7839",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Oulu"
+    },
+    {
+      "id": "SPL-7846",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Poco Loco Kansalliset @ Padel Club Pirkkola / MC2, NC2, MD2 & ND2",
+      "tier": "Nationals",
+      "classes": [
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Helsinki",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-17",
+      "endDate": "2027-04-18",
+      "url": "https://www.padelution.com/events/poco-loco-kansalliset-at-padel-club-pirkkola-mc2-nc2-md2-nd2-7843",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Poco Loco Padel ry"
     },
     {
       "id": "SPL-7746",
@@ -5283,6 +5503,31 @@ window.PADEL_DATA = {
       "organizer": "Porvoon Padel ry"
     },
     {
+      "id": "SPL-7847",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Poco Loco Kansalliset @XO Center / MC1, NC1, MD1 & ND1",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Kerava",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-24",
+      "endDate": "2027-04-25",
+      "url": "https://www.padelution.com/events/poco-loco-kansalliset-at-xo-center-mc1-nc1-md1-nd1-7844",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Poco Loco Padel ry"
+    },
+    {
       "id": "SPL-7802",
       "country": "FI",
       "countryName": "Finland",
@@ -5360,6 +5605,33 @@ window.PADEL_DATA = {
       "organizer": "House of Padel ry"
     },
     {
+      "id": "SPL-7778",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset 40-0 Padel Center, 14-16.5.2027 (C1,D1, E)",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Raisio",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-14",
+      "endDate": "2027-05-16",
+      "url": "https://www.padelution.com/events/kansalliset-40-0-padel-center-14-1652027-c1d1-e-7775",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "6-0 ry"
+    },
+    {
       "id": "SPL-7819",
       "country": "FI",
       "countryName": "Finland",
@@ -5381,6 +5653,30 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Smash-Kotka"
+    },
+    {
+      "id": "SPL-7841",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Akaan Kansalliset C1 & MD1",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1"
+      ],
+      "gender": "open",
+      "city": "Akaa",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-15",
+      "endDate": "2027-05-16",
+      "url": "https://www.padelution.com/events/akaan-kansalliset-7838",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "BadSmashes Ry"
     },
     {
       "id": "SPL-7758",
@@ -5561,6 +5857,29 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Orimattilan Jymy"
+    },
+    {
+      "id": "SPL-7848",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Poco Loco Kansalliset @ XO Center / MC1 & NC1",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1"
+      ],
+      "gender": "open",
+      "city": "Kerava",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-22",
+      "endDate": "2027-05-23",
+      "url": "https://www.padelution.com/events/poco-loco-kansalliset-at-xo-center-mc1-nc1-7845",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Poco Loco Padel ry"
     },
     {
       "id": "SPL-7739",
@@ -5750,6 +6069,61 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Seinä-Joe Ry"
+    },
+    {
+      "id": "SPL-7843",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Padel Oulu kansalliset kilpailut 12.-13.6.2027",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE",
+        "Mixty"
+      ],
+      "gender": "open",
+      "city": "Kempele",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-06-12",
+      "endDate": "2027-06-13",
+      "url": "https://www.padelution.com/events/padel-oulu-kansalliset-kilpailut-12-1362027-7840",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Oulu"
+    },
+    {
+      "id": "SPL-7849",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Poco Loco Kansalliset @ Padel Club Pirkkola / MC1, NC1, MD1, ND1, ME & NE",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Helsinki",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-06-12",
+      "endDate": "2027-06-13",
+      "url": "https://www.padelution.com/events/poco-loco-kansalliset-at-padel-club-pirkkola-mc1-nc1-md1-nd1-me-ne-7846",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Poco Loco Padel ry"
     },
     {
       "id": "SPL-7748",
