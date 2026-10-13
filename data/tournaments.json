@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T11:49:56Z",
+  "generatedAt": "2026-10-13T11:38:20Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,25 +8,25 @@
       "count": 10,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-12T11:49:44Z"
+      "fetchedAt": "2026-10-13T11:38:08Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 215,
+      "count": 224,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-12T11:49:52Z"
+      "fetchedAt": "2026-10-13T11:38:16Z"
     },
     {
       "id": "LPF",
       "name": "Latvijas Padel Federacija (padelfederacija.lv)",
       "url": "https://padelfederacija.lv/lv-LV/tournaments",
-      "count": 5,
+      "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-12T11:49:54Z"
+      "fetchedAt": "2026-10-13T11:38:18Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 27,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-12T11:49:56Z"
+      "fetchedAt": "2026-10-13T11:38:20Z"
     }
   ],
   "tournaments": [
@@ -58,26 +58,6 @@
       "status": "live",
       "deadline": "2026-09-16",
       "organizer": ""
-    },
-    {
-      "id": "FIP-fip-bronze-high-velocity-cebu",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "High Velocity Cebu",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Cebu City",
-      "venue": "",
-      "hostCountry": "Philippines",
-      "startDate": "2026-10-14",
-      "endDate": "2026-10-18",
-      "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-cebu/",
-      "status": "closed",
-      "deadline": null,
-      "organizer": "FIP"
     },
     {
       "id": "FIP-fip-bronze-oeiras-2026",
@@ -183,6 +163,26 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "6-0 ry"
+    },
+    {
+      "id": "FIP-fip-bronze-high-velocity-cebu",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "High Velocity Cebu",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Cebu City",
+      "venue": "",
+      "hostCountry": "Philippines",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-18",
+      "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-cebu/",
+      "status": "closed",
+      "deadline": null,
+      "organizer": "FIP"
     },
     {
       "id": "SPL-7131",
@@ -1316,7 +1316,7 @@
       "countryName": "Finland",
       "source": "SPL",
       "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset Lahessa / C2-luokat 8.11. ja D2-luokat 7.11.",
+      "name": "Kansalliset Lahessa / D2-luokat 7.11. ja C2-luokat 8.11.",
       "tier": "Nationals",
       "classes": [
         "MC2",
@@ -1619,6 +1619,33 @@
       "organizer": "Kainuun Ärjy Padel"
     },
     {
+      "id": "SPL-7326",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Kilpailut Lappeenranta",
+      "tier": "Nationals",
+      "classes": [
+        "MB2",
+        "NB2",
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Lappeenranta",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-lappeenranta-7323",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Lappeenrannan Padelseura ry"
+    },
+    {
       "id": "SPL-7587",
       "country": "FI",
       "countryName": "Finland",
@@ -1732,33 +1759,6 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Hi5 Padel ry"
-    },
-    {
-      "id": "SPL-7326",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset Kilpailut Lappeenranta",
-      "tier": "Nationals",
-      "classes": [
-        "MB2",
-        "NB2",
-        "MC2",
-        "NC2",
-        "MD2",
-        "ND2"
-      ],
-      "gender": "open",
-      "city": "Lappeenranta",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-11-14",
-      "endDate": "2026-11-15",
-      "url": "https://www.padelution.com/events/kansalliset-kilpailut-lappeenranta-7323",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "Lappeenrannan Padelseura ry"
     },
     {
       "id": "SPL-7263",
@@ -3550,6 +3550,26 @@
       "organizer": "6-0 ry"
     },
     {
+      "id": "LPF-11758",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "Jēkabpils Čempionāts",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Jēkabpils",
+      "venue": "Kvartāls 86 ",
+      "hostCountry": "Latvia",
+      "startDate": "2027-01-09",
+      "endDate": "2027-01-10",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11758",
+      "status": "open",
+      "deadline": "2027-01-05",
+      "organizer": "Latvijas Padel Federācija"
+    },
+    {
       "id": "SPL-7740",
       "country": "FI",
       "countryName": "Finland",
@@ -3868,6 +3888,77 @@
       "organizer": "Open Padel ry"
     },
     {
+      "id": "SPL-7889",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Lahessa 30.-31.1. - D1 ja C2",
+      "tier": "Nationals",
+      "classes": [
+        "MC2",
+        "NC2",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Lahti",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-01-30",
+      "endDate": "2027-01-31",
+      "url": "https://www.padelution.com/events/kansalliset-lahessa-30-311-d1-ja-c2-7886",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Lahden Padelseura ry"
+    },
+    {
+      "id": "SPL-7892",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "KTK-GTK:n kansalliset kilpailut Kokkolassa",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "ND1",
+        "NE",
+        "M50"
+      ],
+      "gender": "open",
+      "city": "Kokkola",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-01-30",
+      "endDate": "2027-01-31",
+      "url": "https://www.padelution.com/events/ktk-gtkn-kansalliset-kilpailut-kokkolassa-7889",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "KTK-GTK"
+    },
+    {
+      "id": "LPF-11759",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "Tonybet Open",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Rīga",
+      "venue": "Tonybet",
+      "hostCountry": "Latvia",
+      "startDate": "2027-01-30",
+      "endDate": "2027-01-31",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11759",
+      "status": "open",
+      "deadline": "2027-01-26",
+      "organizer": "Tonybet Padel"
+    },
+    {
       "id": "SPL-7858",
       "country": "FI",
       "countryName": "Finland",
@@ -3970,6 +4061,31 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Periferian Padel ry"
+    },
+    {
+      "id": "SPL-7885",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut MB1, NC1, ND2, ME / Padel or Die!",
+      "tier": "Nationals",
+      "classes": [
+        "MB1",
+        "NC1",
+        "ND2",
+        "ME"
+      ],
+      "gender": "open",
+      "city": "Seinäjoki",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-06",
+      "endDate": "2027-02-07",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-mb1-me-nc1-nd2-padel-or-die-7882",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Or Die! ry"
     },
     {
       "id": "SPL-7798",
@@ -4280,6 +4396,26 @@
       "organizer": "Poco Loco Padel ry"
     },
     {
+      "id": "LPF-11760",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "Padelstar Open",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Riga",
+      "venue": "Padelstar",
+      "hostCountry": "Latvia",
+      "startDate": "2027-02-20",
+      "endDate": "2027-02-21",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11760",
+      "status": "open",
+      "deadline": "2027-02-16",
+      "organizer": "Latvijas Padel Federācija"
+    },
+    {
       "id": "SPL-7741",
       "country": "FI",
       "countryName": "Finland",
@@ -4390,6 +4526,31 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Open Padel ry"
+    },
+    {
+      "id": "SPL-7886",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut MC1, NC2, MD2, ND2 / Padel or Die!",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC2",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Seinäjoki",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-06",
+      "endDate": "2027-03-07",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-mc1-md2-nc2-nd2-padel-or-die-7883",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Or Die! ry"
     },
     {
       "id": "SPL-7799",
@@ -4596,6 +4757,77 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Seinä-Joe Ry"
+    },
+    {
+      "id": "SPL-7890",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Lahdessa 13.-14.3. - D1 ja C1",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Lahti",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-13",
+      "endDate": "2027-03-14",
+      "url": "https://www.padelution.com/events/kansalliset-lahdessa-13-143-d1-ja-c1-7887",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Lahden Padelseura ry"
+    },
+    {
+      "id": "SPL-7893",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "KTK-GTK:n kansalliset kilpailut Kokkolassa",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "ND1",
+        "NE",
+        "M50"
+      ],
+      "gender": "open",
+      "city": "Kokkola",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-13",
+      "endDate": "2027-03-14",
+      "url": "https://www.padelution.com/events/ktk-gtkn-kansalliset-kilpailut-kokkolassa-7890",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "KTK-GTK"
+    },
+    {
+      "id": "LPF-11761",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "Golden Point Arēna Open",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Rīga",
+      "venue": "Golden Point Arēna",
+      "hostCountry": "Latvia",
+      "startDate": "2027-03-13",
+      "endDate": "2027-03-14",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11761",
+      "status": "open",
+      "deadline": "2027-03-09",
+      "organizer": "Latvijas Padel Federācija"
     },
     {
       "id": "SPL-7738",
@@ -5004,6 +5236,33 @@
       "organizer": "Seinä-Joe Ry"
     },
     {
+      "id": "SPL-7891",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Lahdessa 10.-11.4. - C2, D2 ja E",
+      "tier": "Nationals",
+      "classes": [
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Lahti",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-10",
+      "endDate": "2027-04-11",
+      "url": "https://www.padelution.com/events/kansalliset-lahdessa-10-114-c2-d2-ja-e-7888",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Lahden Padelseura ry"
+    },
+    {
       "id": "SPL-7728",
       "country": "FI",
       "countryName": "Finland",
@@ -5031,6 +5290,26 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "TaTS Padel"
+    },
+    {
+      "id": "LPF-11762",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "Infinity Padel Open",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Riga",
+      "venue": "Infinity Padel",
+      "hostCountry": "Latvia",
+      "startDate": "2027-04-10",
+      "endDate": "2027-04-11",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11762",
+      "status": "open",
+      "deadline": "2027-04-06",
+      "organizer": ""
     },
     {
       "id": "SPL-7734",
@@ -5220,6 +5499,26 @@
       "organizer": "Smash Out Porvoo ry"
     },
     {
+      "id": "LPF-11769",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "Latvijas Republikas Čempionāts",
+      "tier": "Championship",
+      "classes": [],
+      "gender": "open",
+      "city": "Riga",
+      "venue": "Latvijas Padel Federācija",
+      "hostCountry": "Latvia",
+      "startDate": "2027-04-23",
+      "endDate": "2027-04-24",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11769",
+      "status": "open",
+      "deadline": "2027-04-19",
+      "organizer": ""
+    },
+    {
       "id": "SPL-7860",
       "country": "FI",
       "countryName": "Finland",
@@ -5403,6 +5702,31 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Poco Loco Padel ry"
+    },
+    {
+      "id": "SPL-7887",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut MB2, NB2, MC2, NC2 / Padel or Die!",
+      "tier": "Nationals",
+      "classes": [
+        "MB2",
+        "NB2",
+        "MC2",
+        "NC2"
+      ],
+      "gender": "open",
+      "city": "Seinäjoki",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-01",
+      "endDate": "2027-05-02",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-mb2-mc2-nb2-nc2-padel-or-die-7884",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Or Die! ry"
     },
     {
       "id": "SPL-7802",
@@ -5713,6 +6037,31 @@
       "organizer": "RepaDel ry"
     },
     {
+      "id": "SPL-7888",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut MD1, ND1, ME, NE / Padel or Die!",
+      "tier": "Nationals",
+      "classes": [
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Seinäjoki",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-22",
+      "endDate": "2027-05-23",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-md1-me-nd1-ne-padel-or-die-7885",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Or Die! ry"
+    },
+    {
       "id": "SPL-7706",
       "country": "FI",
       "countryName": "Finland",
@@ -5813,6 +6162,26 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Smash"
+    },
+    {
+      "id": "LPF-11763",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "MyPadel Open",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Mārupe",
+      "venue": "MyPadel",
+      "hostCountry": "Latvia",
+      "startDate": "2027-05-22",
+      "endDate": "2027-05-23",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11763",
+      "status": "open",
+      "deadline": "2027-05-18",
+      "organizer": "Latvijas Padel Federācija"
     },
     {
       "id": "SPL-7739",
@@ -6362,6 +6731,26 @@
       "organizer": "Pori Padel ry"
     },
     {
+      "id": "LPF-11770",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "LPF Atklātais Vasaras Padel Festivāls",
+      "tier": "Other",
+      "classes": [],
+      "gender": "open",
+      "city": "Riga",
+      "venue": "Latvijas Padel Federācija",
+      "hostCountry": "Latvia",
+      "startDate": "2027-08-07",
+      "endDate": "2027-08-08",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11770",
+      "status": "open",
+      "deadline": "2027-08-03",
+      "organizer": ""
+    },
+    {
       "id": "SPL-7762",
       "country": "FI",
       "countryName": "Finland",
@@ -6401,6 +6790,46 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Open Padel ry"
+    },
+    {
+      "id": "LPF-11764",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "X Padel Open",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Jelgava",
+      "venue": "X Padel",
+      "hostCountry": "Latvia",
+      "startDate": "2027-08-28",
+      "endDate": "2027-08-29",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11764",
+      "status": "open",
+      "deadline": "2027-08-24",
+      "organizer": "Latvijas Padel Federācija"
+    },
+    {
+      "id": "LPF-11765",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "Zemitānu Padel Open",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Rīga",
+      "venue": "Zemitānu Padel",
+      "hostCountry": "Latvia",
+      "startDate": "2027-09-18",
+      "endDate": "2027-09-19",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11765",
+      "status": "open",
+      "deadline": "2027-09-14",
+      "organizer": "Latvijas Padel Federācija"
     },
     {
       "id": "SPL-7763",
