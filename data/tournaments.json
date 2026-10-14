@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T11:38:20Z",
+  "generatedAt": "2026-10-14T09:25:20Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,16 +8,16 @@
       "count": 10,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-13T11:38:08Z"
+      "fetchedAt": "2026-10-14T09:25:08Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 224,
+      "count": 229,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-13T11:38:16Z"
+      "fetchedAt": "2026-10-14T09:25:16Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-13T11:38:18Z"
+      "fetchedAt": "2026-10-14T09:25:19Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 27,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-13T11:38:20Z"
+      "fetchedAt": "2026-10-14T09:25:20Z"
     }
   ],
   "tournaments": [
@@ -75,7 +75,7 @@
       "startDate": "2026-10-14",
       "endDate": "2026-10-18",
       "url": "https://www.padelfip.com/events/fip-bronze-oeiras-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -2053,7 +2053,7 @@
       "startDate": "2026-11-23",
       "endDate": "2026-11-29",
       "url": "https://www.padelfip.com/events/fip-bronze-denia-2026/",
-      "status": "upcoming",
+      "status": "open",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -2073,7 +2073,7 @@
       "startDate": "2026-11-23",
       "endDate": "2026-11-29",
       "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-phuket-2026-2/",
-      "status": "upcoming",
+      "status": "open",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -2093,7 +2093,7 @@
       "startDate": "2026-11-23",
       "endDate": "2026-11-29",
       "url": "https://www.padelfip.com/events/fip-bronze-roeselare-2026/",
-      "status": "upcoming",
+      "status": "open",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -3165,33 +3165,6 @@
       "organizer": "Padel Rocks ry"
     },
     {
-      "id": "SPL-7323",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kilpailut / Padel or Die!",
-      "tier": "Nationals",
-      "classes": [
-        "MC1",
-        "NC1",
-        "MD1",
-        "ND1",
-        "ME",
-        "NE"
-      ],
-      "gender": "open",
-      "city": "Seinäjoki",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-12-19",
-      "endDate": "2026-12-20",
-      "url": "https://www.padelution.com/events/kansalliset-kilpailut-padel-or-die-7320",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "Padel Or Die! ry"
-    },
-    {
       "id": "SPL-7285",
       "country": "FI",
       "countryName": "Finland",
@@ -3219,6 +3192,33 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Open Padel ry"
+    },
+    {
+      "id": "SPL-7323",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut C1, D1, E / Padel or Die!",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Seinäjoki",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2026-12-19",
+      "endDate": "2026-12-20",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-padel-or-die-7320",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Or Die! ry"
     },
     {
       "id": "SPL-7190",
@@ -4136,6 +4136,31 @@
       "organizer": "Orimattilan Jymy"
     },
     {
+      "id": "SPL-7770",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Padel247 Kansalliset C2 ja D2 (lauantaina yksipäiväiset)",
+      "tier": "Nationals",
+      "classes": [
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Nokia",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-13",
+      "endDate": "2027-02-13",
+      "url": "https://www.padelution.com/events/a2-luokan-kansalliset-7767",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel247 ry"
+    },
+    {
       "id": "SPL-7782",
       "country": "FI",
       "countryName": "Finland",
@@ -4414,6 +4439,41 @@
       "status": "open",
       "deadline": "2027-02-16",
       "organizer": "Latvijas Padel Federācija"
+    },
+    {
+      "id": "SPL-7844",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "FPT Gold + Babolat Junior Tour 26.-28.2.2027 + (kansalliset C1 & D1)",
+      "tier": "FPT Gold",
+      "classes": [
+        "MFPTG",
+        "NFPTG",
+        "P18",
+        "T18",
+        "P16",
+        "T16",
+        "P14",
+        "T14",
+        "P12",
+        "T12",
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Kempele",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-26",
+      "endDate": "2027-02-28",
+      "url": "https://www.padelution.com/events/fpt-gold-bjt-26-282-7841",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Oulu"
     },
     {
       "id": "SPL-7741",
@@ -5077,6 +5137,31 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Porvoon Padel ry"
+    },
+    {
+      "id": "SPL-7771",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "PAdel247 Kansalliset kisat B1 ja C2 luokat (yksipäiväiset lauantaina",
+      "tier": "Nationals",
+      "classes": [
+        "MB1",
+        "NB1",
+        "MC2",
+        "NC2"
+      ],
+      "gender": "open",
+      "city": "Nokia",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-27",
+      "endDate": "2027-03-27",
+      "url": "https://www.padelution.com/events/kansalliset-kisat-b1-ja-c2-luokat-7768",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel247 ry"
     },
     {
       "id": "SPL-7818",
@@ -6213,6 +6298,31 @@
       "organizer": "Padel JKL ry"
     },
     {
+      "id": "SPL-7772",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Padel247 Kansalliset kisat B1 ja D1 luokat (yksipäiväiset lauantaina!)",
+      "tier": "Nationals",
+      "classes": [
+        "MB1",
+        "NB1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Nokia",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-29",
+      "endDate": "2027-05-29",
+      "url": "https://www.padelution.com/events/kansalliset-kisat-b-ja-d-luokat-7769",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel247 ry"
+    },
+    {
       "id": "SPL-7786",
       "country": "FI",
       "countryName": "Finland",
@@ -6830,6 +6940,37 @@
       "status": "open",
       "deadline": "2027-09-14",
       "organizer": "Latvijas Padel Federācija"
+    },
+    {
+      "id": "SPL-7773",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Padel247 FPT Gold + BJT 8.-10.10.",
+      "tier": "FPT Gold",
+      "classes": [
+        "MFPTG",
+        "NFPTG",
+        "P18",
+        "T18",
+        "P16",
+        "T16",
+        "P14",
+        "T14",
+        "P12",
+        "T12"
+      ],
+      "gender": "open",
+      "city": "Nokia",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-10-09",
+      "endDate": "2027-10-10",
+      "url": "https://www.padelution.com/events/fpt-gold-bjt-8-1010-7770",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel247 ry"
     },
     {
       "id": "SPL-7763",
