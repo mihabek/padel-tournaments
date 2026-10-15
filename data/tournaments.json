@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T09:25:20Z",
+  "generatedAt": "2026-10-15T09:03:34Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,16 +8,16 @@
       "count": 10,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-14T09:25:08Z"
+      "fetchedAt": "2026-10-15T09:03:20Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 229,
+      "count": 242,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-14T09:25:16Z"
+      "fetchedAt": "2026-10-15T09:03:29Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-14T09:25:19Z"
+      "fetchedAt": "2026-10-15T09:03:32Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 27,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-14T09:25:20Z"
+      "fetchedAt": "2026-10-15T09:03:34Z"
     }
   ],
   "tournaments": [
@@ -95,7 +95,7 @@
       "startDate": "2026-10-15",
       "endDate": "2026-10-18",
       "url": "https://www.padelfip.com/events/fip-bronze-contonou-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -115,7 +115,7 @@
       "startDate": "2026-10-15",
       "endDate": "2026-10-18",
       "url": "https://www.padelfip.com/events/fip-bronze-interpadel-open-oslo-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -135,7 +135,7 @@
       "startDate": "2026-10-15",
       "endDate": "2026-10-18",
       "url": "https://www.padelfip.com/events/fip-bronze-racourt-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -272,7 +272,7 @@
       "startDate": "2026-10-17",
       "endDate": "2026-10-18",
       "url": "https://www.rankedin.com/en/tournament/73182/epl-a-liiga-6-etapp-fv-padel-eace",
-      "status": "open",
+      "status": "closed",
       "deadline": "2026-10-14",
       "organizer": "Eesti Padeli Liit"
     },
@@ -292,7 +292,7 @@
       "startDate": "2026-10-17",
       "endDate": "2026-10-18",
       "url": "https://www.rankedin.com/en/tournament/73180/epl-meeste-d-liiga-6-etapp-padel-restate-l-3545-p-7887",
-      "status": "open",
+      "status": "closed",
       "deadline": "2026-10-14",
       "organizer": "Eesti Padeli Liit"
     },
@@ -3626,6 +3626,31 @@
       "organizer": "Padel JKL ry"
     },
     {
+      "id": "SPL-7805",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kisat Tornio Padel by Sulpadel Kemi",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Kemi",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-01-15",
+      "endDate": "2027-01-17",
+      "url": "https://www.padelution.com/events/kansalliset-kisat-tornio-padel-by-sulpadel-kemi-7802",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Tornio Padel"
+    },
+    {
       "id": "SPL-7817",
       "country": "FI",
       "countryName": "Finland",
@@ -3647,6 +3672,31 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Smash-Kotka"
+    },
+    {
+      "id": "SPL-7808",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Björn Borg Padel Rocks miehet B2- ja C2 sekä naiset B2- ja C2-luokka 16.-17.1.2027",
+      "tier": "Nationals",
+      "classes": [
+        "MB2",
+        "NB2",
+        "MC2",
+        "NC2"
+      ],
+      "gender": "open",
+      "city": "Espoo",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-01-16",
+      "endDate": "2027-01-17",
+      "url": "https://www.padelution.com/events/bjorn-borg-padel-rocks-miehet-b2-ja-c2-seka-naiset-b2-ja-c2-luokka-16-1712027-7805",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Rocks ry"
     },
     {
       "id": "SPL-7788",
@@ -4503,6 +4553,54 @@
       "organizer": "PLPG"
     },
     {
+      "id": "SPL-7894",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut, Kulmasport Savonlinna",
+      "tier": "Nationals",
+      "classes": [
+        "MC2",
+        "NC2"
+      ],
+      "gender": "open",
+      "city": "Savonlinna",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-27",
+      "endDate": "2027-02-27",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-kulmasport-savonlinna-7891",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Kulma Padel Club"
+    },
+    {
+      "id": "SPL-7895",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Padel Kingin Kansalliset Kilpailut 27.-28.2.2027 NC1, MC1, ND2 ja MD2",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Hämeenlinna",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-27",
+      "endDate": "2027-02-28",
+      "url": "https://www.padelution.com/events/padel-kingin-kansalliset-kilpailut-7892",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel King Hämeenlinna"
+    },
+    {
       "id": "SPL-7859",
       "country": "FI",
       "countryName": "Finland",
@@ -4870,6 +4968,29 @@
       "organizer": "KTK-GTK"
     },
     {
+      "id": "SPL-7896",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Padel Kingin Kansalliset Kilpailut 13.-14.3.2027 NB1 ja MB1",
+      "tier": "Nationals",
+      "classes": [
+        "MB1",
+        "NB1"
+      ],
+      "gender": "open",
+      "city": "Hämeenlinna",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-13",
+      "endDate": "2027-03-14",
+      "url": "https://www.padelution.com/events/padel-kingin-kansalliset-kilpailut-7893",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel King Hämeenlinna"
+    },
+    {
       "id": "LPF-11761",
       "country": "LV",
       "countryName": "Latvia",
@@ -4977,6 +5098,31 @@
       "organizer": "Padel Familia ry"
     },
     {
+      "id": "SPL-7809",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Björn Borg Padel Rocks miehet C1- ja D1 sekä naiset C1- ja D2-luokka 20.-21.-3.2027",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Espoo",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-20",
+      "endDate": "2027-03-21",
+      "url": "https://www.padelution.com/events/bjorn-borg-padel-rocks-miehet-c1-ja-d1-seka-naiset-c1-ja-d2-luokka-20-21-32027-7806",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Rocks ry"
+    },
+    {
       "id": "SPL-7851",
       "country": "FI",
       "countryName": "Finland",
@@ -5079,6 +5225,31 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Let's Padel Porttipuisto ry"
+    },
+    {
+      "id": "SPL-7806",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kisat Tornio Padel by Sulpadel Kemi",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Kemi",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-26",
+      "endDate": "2027-03-28",
+      "url": "https://www.padelution.com/events/kansalliset-kisat-tornio-padel-by-sulpadel-kemi-7803",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Tornio Padel"
     },
     {
       "id": "SPL-7777",
@@ -5449,6 +5620,31 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Padel Tampere"
+    },
+    {
+      "id": "SPL-7810",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Björn Borg Padel Rocks miehet B1- ja D1 sekä naiset B1- ja D1-luokka 17.-18.4.2027",
+      "tier": "Nationals",
+      "classes": [
+        "MB1",
+        "NB1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Espoo",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-17",
+      "endDate": "2027-04-18",
+      "url": "https://www.padelution.com/events/bjorn-borg-padel-rocks-miehet-b1-ja-d1-seka-naiset-b1-ja-d1-luokka-17-1842027-7807",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Rocks ry"
     },
     {
       "id": "SPL-7877",
@@ -6197,6 +6393,31 @@
       "organizer": "Orimattilan Jymy"
     },
     {
+      "id": "SPL-7897",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Padel Kingin Kansalliset Kilpailut 22.-23.5.2027 NC1, MC1, ND1 ja MD1",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Hämeenlinna",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-22",
+      "endDate": "2027-05-23",
+      "url": "https://www.padelution.com/events/padel-kingin-kansalliset-kilpailut-7894",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel King Hämeenlinna"
+    },
+    {
       "id": "SPL-7848",
       "country": "FI",
       "countryName": "Finland",
@@ -6615,6 +6836,75 @@
       "organizer": "TaTS Padel"
     },
     {
+      "id": "SPL-7811",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Björn Borg Padel Rocks miehet C2- ja naiset C2- luokka 15.6.2027",
+      "tier": "Nationals",
+      "classes": [
+        "MC2",
+        "NC2"
+      ],
+      "gender": "open",
+      "city": "Espoo",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-06-15",
+      "endDate": "2027-06-15",
+      "url": "https://www.padelution.com/events/bjorn-borg-padel-rocks-miehet-c2-ja-naiset-c2-luokka-1562027-7808",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Rocks ry"
+    },
+    {
+      "id": "SPL-7812",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Björn Borg Padel Rocks miehet D2- ja D2-luokka 16.6.2027",
+      "tier": "Nationals",
+      "classes": [
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Espoo",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-06-16",
+      "endDate": "2027-06-16",
+      "url": "https://www.padelution.com/events/bjorn-borg-padel-rocks-miehet-d2-ja-d2-luokka-1662027-7809",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Rocks ry"
+    },
+    {
+      "id": "SPL-7813",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Björn Borg Padel Rocks miehet C1- ja naiset C1 17.6.2027",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1"
+      ],
+      "gender": "open",
+      "city": "Espoo",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-06-17",
+      "endDate": "2027-06-17",
+      "url": "https://www.padelution.com/events/bjorn-borg-padel-rocks-miehet-c1-ja-naiset-c1-1762027-7810",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel Rocks ry"
+    },
+    {
       "id": "SPL-7760",
       "country": "FI",
       "countryName": "Finland",
@@ -6787,6 +7077,29 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Open Padel ry"
+    },
+    {
+      "id": "SPL-7898",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Padel Kingin Kansalliset Kilpailut 26.-27.6.2027 ND1 ja MD1",
+      "tier": "Nationals",
+      "classes": [
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Hämeenlinna",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-06-26",
+      "endDate": "2027-06-27",
+      "url": "https://www.padelution.com/events/padel-kingin-kansalliset-kilpailut-7895",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel King Hämeenlinna"
     },
     {
       "id": "SPL-7743",
