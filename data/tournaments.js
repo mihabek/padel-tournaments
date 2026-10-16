@@ -1,5 +1,5 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-10-15T09:03:34Z",
+  "generatedAt": "2026-10-16T08:56:03Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,16 +8,16 @@ window.PADEL_DATA = {
       "count": 10,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-15T09:03:20Z"
+      "fetchedAt": "2026-10-16T08:55:47Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 242,
+      "count": 249,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-15T09:03:29Z"
+      "fetchedAt": "2026-10-16T08:55:57Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-15T09:03:32Z"
+      "fetchedAt": "2026-10-16T08:56:00Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 27,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-15T09:03:34Z"
+      "fetchedAt": "2026-10-16T08:56:03Z"
     }
   ],
   "tournaments": [
@@ -160,7 +160,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-16",
       "endDate": "2026-10-18",
       "url": "https://www.padelution.com/events/kansalliset-40-0-padel-center-16-18102026-b1-e-7226",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "6-0 ry"
     },
@@ -180,7 +180,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-16",
       "endDate": "2026-10-18",
       "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-cebu/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -425,26 +425,6 @@ window.PADEL_DATA = {
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-ewh-city-padel-taunton",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Ewh City Pádel Taunton",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Taunton",
-      "venue": "",
-      "hostCountry": "Great Britain",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-25",
-      "url": "https://www.padelfip.com/events/fip-bronze-ewh-city-padel-taunton/",
-      "status": "closed",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
       "id": "FIP-fip-bronze-high-velocity-samui-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -465,6 +445,26 @@ window.PADEL_DATA = {
       "organizer": "FIP"
     },
     {
+      "id": "FIP-fip-bronze-ewh-city-padel-taunton",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Ewh City Pádel Taunton",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Taunton",
+      "venue": "",
+      "hostCountry": "Great Britain",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-25",
+      "url": "https://www.padelfip.com/events/fip-bronze-ewh-city-padel-taunton/",
+      "status": "closed",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
       "id": "FIP-fip-bronze-qnb-cup-antalya-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -477,7 +477,7 @@ window.PADEL_DATA = {
       "city": "Antalya",
       "venue": "",
       "hostCountry": "Türkiye",
-      "startDate": "2026-10-19",
+      "startDate": "2026-10-21",
       "endDate": "2026-10-25",
       "url": "https://www.padelfip.com/events/fip-bronze-qnb-cup-antalya-2026/",
       "status": "closed",
@@ -498,8 +498,6 @@ window.PADEL_DATA = {
         "MD1",
         "ND1",
         "ME",
-        "P18",
-        "T18",
         "NE"
       ],
       "gender": "open",
@@ -644,8 +642,7 @@ window.PADEL_DATA = {
       "classes": [
         "MC2",
         "ND1",
-        "MB2",
-        "NB2"
+        "MB2"
       ],
       "gender": "open",
       "city": "Pieksämäki",
@@ -4009,6 +4006,56 @@ window.PADEL_DATA = {
       "organizer": "Tonybet Padel"
     },
     {
+      "id": "SPL-7926",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Arctic Padel kansalliset kilpailut",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Rovaniemi",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-05",
+      "endDate": "2027-02-07",
+      "url": "https://www.padelution.com/events/arctic-padel-kansalliset-kilpailut-7923",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Arctic Padel Rovaniemi"
+    },
+    {
+      "id": "SPL-7923",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Hi5 Padel ry Kansalliset kilpailut sarjoissa ND2, MD2, NC2, MC2",
+      "tier": "Nationals",
+      "classes": [
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Järvenpää",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-05",
+      "endDate": "2027-02-07",
+      "url": "https://www.padelution.com/events/hi5-padel-ry-kansalliset-kilpailut-sarjoissa-nd2-md2-nc2-mc2-7920",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Hi5 Padel ry"
+    },
+    {
       "id": "SPL-7858",
       "country": "FI",
       "countryName": "Finland",
@@ -4315,6 +4362,33 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Padel Sawo ry"
+    },
+    {
+      "id": "SPL-7744",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kotonen kansalliset 19.-21.2.2027",
+      "tier": "Nationals",
+      "classes": [
+        "MB1",
+        "NB1",
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Järvenpää",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-19",
+      "endDate": "2027-02-21",
+      "url": "https://www.padelution.com/events/kotonen-kansalliset-19-2122027-7741",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Kotone Sport Ry"
     },
     {
       "id": "SPL-7709",
@@ -5011,6 +5085,33 @@ window.PADEL_DATA = {
       "organizer": "Latvijas Padel Federācija"
     },
     {
+      "id": "SPL-7924",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Hi5 Padel ry Kansalliset Kilpailut",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Järvenpää",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-19",
+      "endDate": "2027-03-21",
+      "url": "https://www.padelution.com/events/hi5-padel-ry-kansalliset-kilpailut-7921",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Hi5 Padel ry"
+    },
+    {
       "id": "SPL-7738",
       "country": "FI",
       "countryName": "Finland",
@@ -5383,6 +5484,31 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Open Padel ry"
+    },
+    {
+      "id": "SPL-7927",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Arctic Padel kansalliset kilpailut",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Rovaniemi",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-09",
+      "endDate": "2027-04-11",
+      "url": "https://www.padelution.com/events/arctic-padel-kansalliset-kilpailut-7924",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Arctic Padel Rovaniemi"
     },
     {
       "id": "SPL-7784",
@@ -6087,6 +6213,33 @@ window.PADEL_DATA = {
       "organizer": "House of Padel ry"
     },
     {
+      "id": "SPL-7925",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Hi5 Padel ry Kansalliset kilpailut sarjoissa NB2, MB2, ND2, MD2, NC2, MC2",
+      "tier": "Nationals",
+      "classes": [
+        "MB2",
+        "NB2",
+        "MC2",
+        "NC2",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Järvenpää",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-14",
+      "endDate": "2027-05-16",
+      "url": "https://www.padelution.com/events/hi5-padel-ry-kansalliset-kilpailut-sarjoissa-nb2-mb2-nd2-md2-nc2-mc2-7922",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Hi5 Padel ry"
+    },
+    {
       "id": "SPL-7778",
       "country": "FI",
       "countryName": "Finland",
@@ -6571,6 +6724,31 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "House of Padel ry"
+    },
+    {
+      "id": "SPL-7928",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Arctic Padel kansalliset kilpailut",
+      "tier": "Nationals",
+      "classes": [
+        "MB2",
+        "NB2",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Rovaniemi",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-06-04",
+      "endDate": "2027-06-06",
+      "url": "https://www.padelution.com/events/arctic-padel-kansalliset-kilpailut-7925",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Arctic Padel Rovaniemi"
     },
     {
       "id": "SPL-7759",
