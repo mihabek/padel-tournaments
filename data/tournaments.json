@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T08:28:09Z",
+  "generatedAt": "2026-10-18T08:46:21Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,16 +8,16 @@
       "count": 10,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-17T08:27:54Z"
+      "fetchedAt": "2026-10-18T08:46:08Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 249,
+      "count": 246,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-17T08:28:05Z"
+      "fetchedAt": "2026-10-18T08:46:17Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-17T08:28:07Z"
+      "fetchedAt": "2026-10-18T08:46:19Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 27,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-17T08:28:09Z"
+      "fetchedAt": "2026-10-18T08:46:21Z"
     }
   ],
   "tournaments": [
@@ -183,78 +183,6 @@
       "status": "live",
       "deadline": null,
       "organizer": "FIP"
-    },
-    {
-      "id": "SPL-7131",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset Kilpailut C, D & E | Padel Tampere",
-      "tier": "Nationals",
-      "classes": [
-        "MD1",
-        "NC1",
-        "ND1",
-        "NE"
-      ],
-      "gender": "open",
-      "city": "Tampere",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "url": "https://www.padelution.com/events/kansalliset-kilpailut-c-d-e-padel-tampere-7128",
-      "status": "live",
-      "deadline": null,
-      "organizer": "Padel Tampere"
-    },
-    {
-      "id": "SPL-7363",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kilpailut Miehet ja Naiset B/C/D/, Padel Keljo",
-      "tier": "Nationals",
-      "classes": [
-        "MB1",
-        "NB1",
-        "NC1",
-        "ND1"
-      ],
-      "gender": "open",
-      "city": "Jyväskylä",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "url": "https://www.padelution.com/events/kansalliset-kilpailut-miehet-ja-naiset-bcd-padel-adder-keljo-7360",
-      "status": "live",
-      "deadline": null,
-      "organizer": "Padel Adder ry"
-    },
-    {
-      "id": "SPL-7580",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Smash-Kotkan lokakuun päiväkisa",
-      "tier": "Nationals",
-      "classes": [
-        "MC1"
-      ],
-      "gender": "men",
-      "city": "Kotka",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "url": "https://www.padelution.com/events/smash-kotkan-lokakuun-paivakisa-7577",
-      "status": "live",
-      "deadline": null,
-      "organizer": "Smash-Kotka"
     },
     {
       "id": "EPL-73182",
@@ -802,7 +730,7 @@
       "url": "https://padelfederacija.lv/lv-LV/tournament/9316",
       "status": "open",
       "deadline": "2026-10-27",
-      "organizer": "Latvijas Padel Federācija"
+      "organizer": ""
     },
     {
       "id": "SPL-6478",
@@ -1523,7 +1451,7 @@
       "countryName": "Finland",
       "source": "SPL",
       "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kilpailut Miehet ja Naiset B/C/D, Padel Adder Keljo",
+      "name": "Kansalliset kilpailut Miehet ja Naiset B/C/D, Padel Keljo",
       "tier": "Nationals",
       "classes": [
         "MB1",
