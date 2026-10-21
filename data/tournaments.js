@@ -1,5 +1,5 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-10-20T09:20:00Z",
+  "generatedAt": "2026-10-21T09:16:30Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,16 +8,16 @@ window.PADEL_DATA = {
       "count": 8,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-20T09:19:46Z"
+      "fetchedAt": "2026-10-21T09:16:13Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 286,
+      "count": 292,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-20T09:19:55Z"
+      "fetchedAt": "2026-10-21T09:16:23Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-20T09:19:57Z"
+      "fetchedAt": "2026-10-21T09:16:25Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 22,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-20T09:20:00Z"
+      "fetchedAt": "2026-10-21T09:16:30Z"
     }
   ],
   "tournaments": [
@@ -75,7 +75,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-21",
       "endDate": "2026-10-25",
       "url": "https://www.padelfip.com/events/fip-bronze-ewh-city-padel-taunton/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -95,7 +95,7 @@ window.PADEL_DATA = {
       "startDate": "2026-10-21",
       "endDate": "2026-10-25",
       "url": "https://www.padelfip.com/events/fip-bronze-qnb-cup-antalya-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -856,6 +856,30 @@ window.PADEL_DATA = {
       "organizer": "RepaDel ry"
     },
     {
+      "id": "SPL-7162",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset Kisat, Kauhajoki - Miehet / Naiset D1 & E",
+      "tier": "Nationals",
+      "classes": [
+        "MD1",
+        "ND1",
+        "ME"
+      ],
+      "gender": "open",
+      "city": "Kauhajoki",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "url": "https://www.padelution.com/events/kansalliset-kisat-kauhajoki-miehet-naiset-d1-e-7159",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Seinä-Joe Ry"
+    },
+    {
       "id": "SPL-7128",
       "country": "FI",
       "countryName": "Finland",
@@ -935,31 +959,6 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Play Padel Players ry"
-    },
-    {
-      "id": "SPL-7162",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset Kisat, Kauhajoki - Miehet / Naiset D1 & E",
-      "tier": "Nationals",
-      "classes": [
-        "MD1",
-        "ND1",
-        "ME",
-        "NE"
-      ],
-      "gender": "open",
-      "city": "Kauhajoki",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-08",
-      "url": "https://www.padelution.com/events/kansalliset-kisat-kauhajoki-miehet-naiset-d1-e-7159",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "Seinä-Joe Ry"
     },
     {
       "id": "SPL-7336",
@@ -3228,6 +3227,31 @@ window.PADEL_DATA = {
       "organizer": "6-0 ry"
     },
     {
+      "id": "SPL-7881",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset C1 D1",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Tampere",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-01-08",
+      "endDate": "2027-01-10",
+      "url": "https://www.padelution.com/events/kansalliset-c1-d1-7878",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel West Ry"
+    },
+    {
       "id": "SPL-7749",
       "country": "FI",
       "countryName": "Finland",
@@ -4618,6 +4642,31 @@ window.PADEL_DATA = {
       "organizer": "Kulma Padel Club"
     },
     {
+      "id": "SPL-7882",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset C1 D1",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Tampere",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-27",
+      "endDate": "2027-02-28",
+      "url": "https://www.padelution.com/events/kansalliset-c1-d1-7879",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel West Ry"
+    },
+    {
       "id": "SPL-7855",
       "country": "FI",
       "countryName": "Finland",
@@ -5008,6 +5057,31 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Periferian Padel ry"
+    },
+    {
+      "id": "SPL-7884",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset C D",
+      "tier": "Nationals",
+      "classes": [
+        "NC1",
+        "NC2",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Tampere",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-03-13",
+      "endDate": "2027-03-14",
+      "url": "https://www.padelution.com/events/kansalliset-c-d-7881",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel West Ry"
     },
     {
       "id": "SPL-7783",
@@ -6371,6 +6445,31 @@ window.PADEL_DATA = {
       "organizer": "Padel Sawo ry"
     },
     {
+      "id": "SPL-7883",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset B1 D2",
+      "tier": "Nationals",
+      "classes": [
+        "MB1",
+        "NB1",
+        "MD2",
+        "ND2"
+      ],
+      "gender": "open",
+      "city": "Tampere",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-24",
+      "endDate": "2027-04-25",
+      "url": "https://www.padelution.com/events/kansalliset-b1-d2-7880",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel West Ry"
+    },
+    {
       "id": "SPL-7864",
       "country": "FI",
       "countryName": "Finland",
@@ -6421,6 +6520,31 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Open Padel ry"
+    },
+    {
+      "id": "SPL-7964",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut Tres Locos padel Tornio / Karihaaran verkkopalloseura Ry",
+      "tier": "Nationals",
+      "classes": [
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Tornio",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-04-24",
+      "endDate": "2027-04-25",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-tornio-karihaaran-verkkopalloseura-ry-7961",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Karihaaran verkkopalloseura"
     },
     {
       "id": "SPL-7800",
@@ -6571,6 +6695,29 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Padel Or Die! ry"
+    },
+    {
+      "id": "SPL-7965",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kilpailut Tres Locos padel Tornio / Karihaaran verkkopalloseura Ry",
+      "tier": "Nationals",
+      "classes": [
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Tornio",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-05-06",
+      "endDate": "2027-05-06",
+      "url": "https://www.padelution.com/events/kansalliset-kilpailut-tornio-karihaaran-verkkopalloseura-ry-7962",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Karihaaran verkkopalloseura"
     },
     {
       "id": "SPL-7802",
