@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T09:15:00Z",
+  "generatedAt": "2026-10-24T08:47:56Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@
       "count": 8,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-23T09:14:47Z"
+      "fetchedAt": "2026-10-24T08:47:44Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@
       "count": 292,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-23T09:14:56Z"
+      "fetchedAt": "2026-10-24T08:47:53Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-23T09:14:58Z"
+      "fetchedAt": "2026-10-24T08:47:55Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 21,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-23T09:15:00Z"
+      "fetchedAt": "2026-10-24T08:47:56Z"
     }
   ],
   "tournaments": [
@@ -204,7 +204,7 @@
       "startDate": "2026-10-24",
       "endDate": "2026-10-24",
       "url": "https://padelfederacija.lv/lv-LV/tournament/11740",
-      "status": "closed",
+      "status": "live",
       "deadline": "2026-10-21",
       "organizer": "Latvijas Padel Federācija"
     },
@@ -231,7 +231,7 @@
       "startDate": "2026-10-24",
       "endDate": "2026-10-25",
       "url": "https://www.padelution.com/events/joensuun-lokakuun-kansalliset-7262",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Periferian Padel ry"
     },
@@ -255,7 +255,7 @@
       "startDate": "2026-10-24",
       "endDate": "2026-10-25",
       "url": "https://www.padelution.com/events/kansalliset-kilpailut-7220",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Arctic Padel Rovaniemi"
     },
@@ -278,7 +278,7 @@
       "startDate": "2026-10-24",
       "endDate": "2026-10-25",
       "url": "https://www.padelution.com/events/kansalliset-kilpailut-mc1-ja-nc1-7244",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Padel 9 ry"
     },
@@ -302,7 +302,7 @@
       "startDate": "2026-10-24",
       "endDate": "2026-10-25",
       "url": "https://www.padelution.com/events/kansalliset-kilpailut-pieksamaki-7237",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Padel Kunnonkeskus ry"
     },
@@ -327,7 +327,7 @@
       "startDate": "2026-10-24",
       "endDate": "2026-10-25",
       "url": "https://www.padelution.com/events/kansalliset-pietarsaari-24-25102026-7153",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Pampas padel"
     },
@@ -352,7 +352,7 @@
       "startDate": "2026-10-24",
       "endDate": "2026-10-25",
       "url": "https://www.padelution.com/events/padel-west-kansalliset-bd-7240",
-      "status": "upcoming",
+      "status": "live",
       "deadline": null,
       "organizer": "Padel West Ry"
     },
@@ -774,7 +774,7 @@
       "startDate": "2026-11-02",
       "endDate": "2026-11-08",
       "url": "https://www.padelfip.com/events/fip-bronze-cyprus-iv-2026/",
-      "status": "open",
+      "status": "closed",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -794,7 +794,7 @@
       "startDate": "2026-11-02",
       "endDate": "2026-11-08",
       "url": "https://www.padelfip.com/events/fip-bronze-esc-padel-2026/",
-      "status": "open",
+      "status": "closed",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -1545,26 +1545,6 @@
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-vizcaya-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Iurreta Padelko",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Iurreta",
-      "venue": "",
-      "hostCountry": "Spain",
-      "startDate": "2026-11-16",
-      "endDate": "2026-11-22",
-      "url": "https://www.padelfip.com/events/fip-bronze-vizcaya-2026/",
-      "status": "open",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
       "id": "FIP-fip-bronze-karachi-ii-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -1580,6 +1560,26 @@
       "startDate": "2026-11-16",
       "endDate": "2026-11-22",
       "url": "https://www.padelfip.com/events/fip-bronze-karachi-ii-2026/",
+      "status": "open",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
+      "id": "FIP-fip-bronze-padelko-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Padelko",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Iurreta",
+      "venue": "",
+      "hostCountry": "Spain",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "url": "https://www.padelfip.com/events/fip-bronze-padelko-2026/",
       "status": "open",
       "deadline": null,
       "organizer": "FIP"
@@ -3283,6 +3283,35 @@
       "organizer": "WePadel ry"
     },
     {
+      "id": "SPL-7737",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Kansalliset kisat - Padel Jkl",
+      "tier": "Nationals",
+      "classes": [
+        "MB1",
+        "NB1",
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1",
+        "ME",
+        "NE"
+      ],
+      "gender": "open",
+      "city": "Jyväskylä",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-01-08",
+      "endDate": "2027-01-10",
+      "url": "https://www.padelution.com/events/kansalliset-kisat-padel-jkl-7734",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "Padel JKL ry"
+    },
+    {
       "id": "LPF-11758",
       "country": "LV",
       "countryName": "Latvia",
@@ -3301,33 +3330,6 @@
       "status": "open",
       "deadline": "2027-01-05",
       "organizer": "Latvijas Padel Federācija"
-    },
-    {
-      "id": "SPL-7740",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Yksipäiväiset kansalliset 💎 Porttipuistossa 🎉",
-      "tier": "Nationals",
-      "classes": [
-        "MB1",
-        "NB1",
-        "MC1",
-        "NC1",
-        "MD1",
-        "ND1"
-      ],
-      "gender": "open",
-      "city": "Vantaa",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2027-01-14",
-      "endDate": "2027-01-16",
-      "url": "https://www.padelution.com/events/yksipaivaiset-kansalliset-porttipuistossa-7737",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "PLPG"
     },
     {
       "id": "SPL-7718",
@@ -3382,35 +3384,6 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Boost Academy ry"
-    },
-    {
-      "id": "SPL-7737",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "Kansalliset kisat - Padel Jkl",
-      "tier": "Nationals",
-      "classes": [
-        "MB1",
-        "NB1",
-        "MC1",
-        "NC1",
-        "MD1",
-        "ND1",
-        "ME",
-        "NE"
-      ],
-      "gender": "open",
-      "city": "Jyväskylä",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2027-01-15",
-      "endDate": "2027-01-17",
-      "url": "https://www.padelution.com/events/kansalliset-kisat-padel-jkl-7734",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "Padel JKL ry"
     },
     {
       "id": "SPL-7805",
@@ -4125,6 +4098,33 @@
       "status": "upcoming",
       "deadline": null,
       "organizer": "Padel Adder ry"
+    },
+    {
+      "id": "SPL-7740",
+      "country": "FI",
+      "countryName": "Finland",
+      "source": "SPL",
+      "sourceName": "Suomen Padelliitto",
+      "name": "Ystävänpäivän yksipäiväiset 💎 Porttipuistossa 🎉",
+      "tier": "Nationals",
+      "classes": [
+        "MB2",
+        "NB2",
+        "MC1",
+        "NC1",
+        "MD1",
+        "ND1"
+      ],
+      "gender": "open",
+      "city": "Vantaa",
+      "venue": "",
+      "hostCountry": "Finland",
+      "startDate": "2027-02-12",
+      "endDate": "2027-02-14",
+      "url": "https://www.padelution.com/events/ystavanpaiva-2027",
+      "status": "upcoming",
+      "deadline": null,
+      "organizer": "PLPG"
     },
     {
       "id": "SPL-7770",
