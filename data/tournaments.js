@@ -1,5 +1,5 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-10-24T08:47:56Z",
+  "generatedAt": "2026-10-25T09:04:18Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,16 +8,16 @@ window.PADEL_DATA = {
       "count": 8,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-24T08:47:44Z"
+      "fetchedAt": "2026-10-25T09:04:00Z"
     },
     {
       "id": "SPL",
       "name": "Suomen Padelliitto (Padelution)",
       "url": "https://www.padelution.com/events?pid=62",
-      "count": 292,
+      "count": 291,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-24T08:47:53Z"
+      "fetchedAt": "2026-10-25T09:04:12Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-24T08:47:55Z"
+      "fetchedAt": "2026-10-25T09:04:16Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 21,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-24T08:47:56Z"
+      "fetchedAt": "2026-10-25T09:04:18Z"
     }
   ],
   "tournaments": [
@@ -187,26 +187,6 @@ window.PADEL_DATA = {
       "status": "live",
       "deadline": null,
       "organizer": "Bande Ry"
-    },
-    {
-      "id": "LPF-11740",
-      "country": "LV",
-      "countryName": "Latvia",
-      "source": "LPF",
-      "sourceName": "Latvijas Padel Federacija",
-      "name": "Padelstar bērnu un jauniešu padel festivāls 2026",
-      "tier": "Other",
-      "classes": [],
-      "gender": "open",
-      "city": "Rīga",
-      "venue": "Padelstar Teika",
-      "hostCountry": "Latvia",
-      "startDate": "2026-10-24",
-      "endDate": "2026-10-24",
-      "url": "https://padelfederacija.lv/lv-LV/tournament/11740",
-      "status": "live",
-      "deadline": "2026-10-21",
-      "organizer": "Latvijas Padel Federācija"
     },
     {
       "id": "SPL-7265",
@@ -562,7 +542,7 @@ window.PADEL_DATA = {
       "hostCountry": "Estonia",
       "startDate": "2026-10-31",
       "endDate": "2026-10-31",
-      "url": "https://www.rankedin.com/en/tournament/73657/epl-meeste-c-liiga-6-etapp-fv-padel-viimsi",
+      "url": "https://www.rankedin.com/en/tournament/73657/epl-meeste-c-liiga-6-etapp-fv-padel-viimsi-0517",
       "status": "open",
       "deadline": "2026-10-28",
       "organizer": "Eesti Padeli Liit"
@@ -1219,29 +1199,6 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "Champions Padel ry"
-    },
-    {
-      "id": "SPL-7315",
-      "country": "FI",
-      "countryName": "Finland",
-      "source": "SPL",
-      "sourceName": "Suomen Padelliitto",
-      "name": "💥 D1-yksipäiväiset legendaarisilla Suomenojan kentillä!",
-      "tier": "Nationals",
-      "classes": [
-        "MD1",
-        "ND1"
-      ],
-      "gender": "open",
-      "city": "Espoo",
-      "venue": "",
-      "hostCountry": "Finland",
-      "startDate": "2026-11-14",
-      "endDate": "2026-11-14",
-      "url": "https://www.padelution.com/events/suomenoja-comeback-kansalliset-yksipaivaiset-d1-luokka-7312",
-      "status": "upcoming",
-      "deadline": null,
-      "organizer": "Padel Fiesta ry"
     },
     {
       "id": "SPL-7142",
@@ -8384,6 +8341,26 @@ window.PADEL_DATA = {
       "status": "upcoming",
       "deadline": null,
       "organizer": "WePadel ry"
+    },
+    {
+      "id": "LPF-11765",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "Zemitānu Padel Open",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Rīga",
+      "venue": "Zemitānu Padel",
+      "hostCountry": "Latvia",
+      "startDate": "2027-09-18",
+      "endDate": "2027-09-19",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11765",
+      "status": "open",
+      "deadline": "2027-09-14",
+      "organizer": "Latvijas Padel Federācija"
     },
     {
       "id": "SPL-7773",
