@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T10:28:40Z",
+  "generatedAt": "2026-10-29T10:49:19Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@
       "count": 8,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-28T10:28:33Z"
+      "fetchedAt": "2026-10-29T10:49:13Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@
       "count": 0,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-28T10:28:34Z"
+      "fetchedAt": "2026-10-29T10:49:14Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-28T10:28:36Z"
+      "fetchedAt": "2026-10-29T10:49:17Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 17,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-28T10:28:40Z"
+      "fetchedAt": "2026-10-29T10:49:19Z"
     }
   ],
   "tournaments": [
@@ -95,27 +95,7 @@
       "startDate": "2026-10-29",
       "endDate": "2026-11-01",
       "url": "https://www.padelfip.com/events/fip-bronze-cyprus-iii-2026/",
-      "status": "closed",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-tashkent-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Tashkent",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Tashkent",
-      "venue": "",
-      "hostCountry": "Uzbekistan",
-      "startDate": "2026-10-29",
-      "endDate": "2026-11-01",
-      "url": "https://www.padelfip.com/events/fip-bronze-tashkent-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -160,6 +140,26 @@
       "organizer": "FIP"
     },
     {
+      "id": "FIP-fip-bronze-tashkent-2026",
+      "country": "FIP",
+      "countryName": "FIP Bronze",
+      "source": "FIP",
+      "sourceName": "International Padel Federation",
+      "name": "Tashkent",
+      "tier": "FIP Bronze",
+      "classes": [],
+      "gender": "open",
+      "city": "Tashkent",
+      "venue": "",
+      "hostCountry": "Uzbekistan",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "url": "https://www.padelfip.com/events/fip-bronze-tashkent-2026/",
+      "status": "closed",
+      "deadline": null,
+      "organizer": "FIP"
+    },
+    {
       "id": "EPL-73657",
       "country": "EE",
       "countryName": "Estonia",
@@ -175,7 +175,7 @@
       "startDate": "2026-10-31",
       "endDate": "2026-10-31",
       "url": "https://www.rankedin.com/en/tournament/73657/epl-meeste-c-liiga-6-etapp-fv-padel-viimsi-0517",
-      "status": "open",
+      "status": "closed",
       "deadline": "2026-10-28",
       "organizer": "Eesti Padeli Liit"
     },
@@ -649,8 +649,8 @@
       "tier": "Gold",
       "classes": [],
       "gender": "open",
-      "city": "Rīga",
-      "venue": "Tonybet",
+      "city": "Riga",
+      "venue": "Tonybet Padel",
       "hostCountry": "Latvia",
       "startDate": "2027-01-30",
       "endDate": "2027-01-31",
