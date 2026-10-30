@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T10:49:19Z",
+  "generatedAt": "2026-10-30T10:47:24Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@
       "count": 8,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-29T10:49:13Z"
+      "fetchedAt": "2026-10-30T10:47:19Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@
       "count": 0,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-29T10:49:14Z"
+      "fetchedAt": "2026-10-30T10:47:20Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-29T10:49:17Z"
+      "fetchedAt": "2026-10-30T10:47:22Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 17,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-29T10:49:19Z"
+      "fetchedAt": "2026-10-30T10:47:24Z"
     }
   ],
   "tournaments": [
@@ -115,7 +115,7 @@
       "startDate": "2026-10-30",
       "endDate": "2026-10-31",
       "url": "https://padelfederacija.lv/lv-LV/tournament/9316",
-      "status": "closed",
+      "status": "live",
       "deadline": "2026-10-27",
       "organizer": ""
     },
@@ -135,7 +135,7 @@
       "startDate": "2026-10-30",
       "endDate": "2026-11-01",
       "url": "https://www.padelfip.com/events/fip-bronze-ko-panghan/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -155,7 +155,7 @@
       "startDate": "2026-10-30",
       "endDate": "2026-11-01",
       "url": "https://www.padelfip.com/events/fip-bronze-tashkent-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -195,7 +195,7 @@
       "startDate": "2026-11-01",
       "endDate": "2026-11-01",
       "url": "https://www.rankedin.com/en/tournament/73193/epl-elizabeth-arden-naiste-b-liiga-5-etapp-fv-padel-viimsi-9267",
-      "status": "open",
+      "status": "closed",
       "deadline": "2026-10-29",
       "organizer": "Eesti Padeli Liit"
     },
