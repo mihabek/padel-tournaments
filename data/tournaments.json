@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T10:47:24Z",
+  "generatedAt": "2026-10-31T10:17:11Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@
       "count": 8,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-30T10:47:19Z"
+      "fetchedAt": "2026-10-31T10:17:05Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@
       "count": 0,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-30T10:47:20Z"
+      "fetchedAt": "2026-10-31T10:17:06Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-30T10:47:22Z"
+      "fetchedAt": "2026-10-31T10:17:09Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 17,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-30T10:47:24Z"
+      "fetchedAt": "2026-10-31T10:17:11Z"
     }
   ],
   "tournaments": [
@@ -175,7 +175,7 @@
       "startDate": "2026-10-31",
       "endDate": "2026-10-31",
       "url": "https://www.rankedin.com/en/tournament/73657/epl-meeste-c-liiga-6-etapp-fv-padel-viimsi-0517",
-      "status": "closed",
+      "status": "live",
       "deadline": "2026-10-28",
       "organizer": "Eesti Padeli Liit"
     },
@@ -212,7 +212,7 @@
       "city": "Ayia Napa / Cyprus",
       "venue": "",
       "hostCountry": "",
-      "startDate": "2026-11-02",
+      "startDate": "2026-11-05",
       "endDate": "2026-11-08",
       "url": "https://www.padelfip.com/events/fip-bronze-cyprus-iv-2026/",
       "status": "closed",
@@ -232,7 +232,7 @@
       "city": "Espoo",
       "venue": "",
       "hostCountry": "Finland",
-      "startDate": "2026-11-02",
+      "startDate": "2026-11-05",
       "endDate": "2026-11-08",
       "url": "https://www.padelfip.com/events/fip-bronze-esc-padel-2026/",
       "status": "closed",
@@ -255,7 +255,7 @@
       "startDate": "2026-11-09",
       "endDate": "2026-11-15",
       "url": "https://www.padelfip.com/events/fip-bronze-doha-2026-2/",
-      "status": "open",
+      "status": "closed",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -275,7 +275,7 @@
       "startDate": "2026-11-09",
       "endDate": "2026-11-15",
       "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-kochi-2026/",
-      "status": "open",
+      "status": "closed",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -295,7 +295,7 @@
       "startDate": "2026-11-09",
       "endDate": "2026-11-15",
       "url": "https://www.padelfip.com/events/fip-bronze-levante-2026/",
-      "status": "open",
+      "status": "closed",
       "deadline": null,
       "organizer": "FIP"
     },
