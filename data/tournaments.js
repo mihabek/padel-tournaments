@@ -1,14 +1,14 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-10-31T10:17:11Z",
+  "generatedAt": "2026-11-01T11:11:11Z",
   "sources": [
     {
       "id": "EPL",
       "name": "Eesti Padeli Liit (Rankedin)",
       "url": "https://www.rankedin.com/en/organisation/calendar/1763/eesti-padeli-liit",
-      "count": 8,
+      "count": 7,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-31T10:17:05Z"
+      "fetchedAt": "2026-11-01T11:11:07Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@ window.PADEL_DATA = {
       "count": 0,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-31T10:17:06Z"
+      "fetchedAt": "2026-11-01T11:11:08Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-31T10:17:09Z"
+      "fetchedAt": "2026-11-01T11:11:10Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 17,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-10-31T10:17:11Z"
+      "fetchedAt": "2026-11-01T11:11:11Z"
     }
   ],
   "tournaments": [
@@ -100,26 +100,6 @@ window.PADEL_DATA = {
       "organizer": "FIP"
     },
     {
-      "id": "LPF-9316",
-      "country": "LV",
-      "countryName": "Latvia",
-      "source": "LPF",
-      "sourceName": "Latvijas Padel Federacija",
-      "name": "MH Padel Open",
-      "tier": "Gold",
-      "classes": [],
-      "gender": "open",
-      "city": "Mārupe",
-      "venue": "MH Padel II",
-      "hostCountry": "Latvia",
-      "startDate": "2026-10-30",
-      "endDate": "2026-10-31",
-      "url": "https://padelfederacija.lv/lv-LV/tournament/9316",
-      "status": "live",
-      "deadline": "2026-10-27",
-      "organizer": ""
-    },
-    {
       "id": "FIP-fip-bronze-ko-panghan",
       "country": "FIP",
       "countryName": "FIP Bronze",
@@ -160,26 +140,6 @@ window.PADEL_DATA = {
       "organizer": "FIP"
     },
     {
-      "id": "EPL-73657",
-      "country": "EE",
-      "countryName": "Estonia",
-      "source": "EPL",
-      "sourceName": "Eesti Padeli Liit",
-      "name": "Meeste C-liiga, 6. etapp",
-      "tier": "C-liiga",
-      "classes": [],
-      "gender": "men",
-      "city": "Viimsi",
-      "venue": "FV Padel Viimsi",
-      "hostCountry": "Estonia",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "url": "https://www.rankedin.com/en/tournament/73657/epl-meeste-c-liiga-6-etapp-fv-padel-viimsi-0517",
-      "status": "live",
-      "deadline": "2026-10-28",
-      "organizer": "Eesti Padeli Liit"
-    },
-    {
       "id": "EPL-73193",
       "country": "EE",
       "countryName": "Estonia",
@@ -195,7 +155,7 @@ window.PADEL_DATA = {
       "startDate": "2026-11-01",
       "endDate": "2026-11-01",
       "url": "https://www.rankedin.com/en/tournament/73193/epl-elizabeth-arden-naiste-b-liiga-5-etapp-fv-padel-viimsi-9267",
-      "status": "closed",
+      "status": "live",
       "deadline": "2026-10-29",
       "organizer": "Eesti Padeli Liit"
     },
@@ -838,6 +798,26 @@ window.PADEL_DATA = {
       "status": "open",
       "deadline": "2027-09-14",
       "organizer": "Latvijas Padel Federācija"
+    },
+    {
+      "id": "LPF-11766",
+      "country": "LV",
+      "countryName": "Latvia",
+      "source": "LPF",
+      "sourceName": "Latvijas Padel Federacija",
+      "name": "MH Padel Open",
+      "tier": "Gold",
+      "classes": [],
+      "gender": "open",
+      "city": "Mārupe",
+      "venue": "MH Padel",
+      "hostCountry": "Latvia",
+      "startDate": "2027-10-16",
+      "endDate": "2027-10-17",
+      "url": "https://padelfederacija.lv/lv-LV/tournament/11766",
+      "status": "open",
+      "deadline": "2027-10-12",
+      "organizer": ""
     }
   ]
 };
