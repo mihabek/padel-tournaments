@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-01T11:11:11Z",
+  "generatedAt": "2026-11-02T12:13:26Z",
   "sources": [
     {
       "id": "EPL",
       "name": "Eesti Padeli Liit (Rankedin)",
       "url": "https://www.rankedin.com/en/organisation/calendar/1763/eesti-padeli-liit",
-      "count": 7,
+      "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-01T11:11:07Z"
+      "fetchedAt": "2026-11-02T12:13:21Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@
       "count": 0,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-01T11:11:08Z"
+      "fetchedAt": "2026-11-02T12:13:22Z"
     },
     {
       "id": "LPF",
@@ -26,16 +26,16 @@
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-01T11:11:10Z"
+      "fetchedAt": "2026-11-02T12:13:24Z"
     },
     {
       "id": "FIP",
       "name": "Cupra FIP Tour calendar (padelfip.com)",
       "url": "https://www.padelfip.com/calendar-cupra-fip-tour/?events-year=2026",
-      "count": 17,
+      "count": 13,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-01T11:11:11Z"
+      "fetchedAt": "2026-11-02T12:13:26Z"
     }
   ],
   "tournaments": [
@@ -58,106 +58,6 @@
       "status": "live",
       "deadline": "2026-09-16",
       "organizer": ""
-    },
-    {
-      "id": "FIP-fip-bronze-jc-ferrero-academy-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "JC Ferrero Academy",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Villena",
-      "venue": "",
-      "hostCountry": "Spain",
-      "startDate": "2026-10-28",
-      "endDate": "2026-11-01",
-      "url": "https://www.padelfip.com/events/fip-bronze-jc-ferrero-academy-2026/",
-      "status": "live",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-cyprus-iii-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Cyprus III",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Ayia Napa / Cyprus",
-      "venue": "",
-      "hostCountry": "",
-      "startDate": "2026-10-29",
-      "endDate": "2026-11-01",
-      "url": "https://www.padelfip.com/events/fip-bronze-cyprus-iii-2026/",
-      "status": "live",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-ko-panghan",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "High Velocity Phangan",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Phangan",
-      "venue": "",
-      "hostCountry": "Thailand",
-      "startDate": "2026-10-30",
-      "endDate": "2026-11-01",
-      "url": "https://www.padelfip.com/events/fip-bronze-ko-panghan/",
-      "status": "live",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "FIP-fip-bronze-tashkent-2026",
-      "country": "FIP",
-      "countryName": "FIP Bronze",
-      "source": "FIP",
-      "sourceName": "International Padel Federation",
-      "name": "Tashkent",
-      "tier": "FIP Bronze",
-      "classes": [],
-      "gender": "open",
-      "city": "Tashkent",
-      "venue": "",
-      "hostCountry": "Uzbekistan",
-      "startDate": "2026-10-30",
-      "endDate": "2026-11-01",
-      "url": "https://www.padelfip.com/events/fip-bronze-tashkent-2026/",
-      "status": "live",
-      "deadline": null,
-      "organizer": "FIP"
-    },
-    {
-      "id": "EPL-73193",
-      "country": "EE",
-      "countryName": "Estonia",
-      "source": "EPL",
-      "sourceName": "Eesti Padeli Liit",
-      "name": "Naiste B-liiga, 5. etapp",
-      "tier": "B-liiga",
-      "classes": [],
-      "gender": "women",
-      "city": "Viimsi",
-      "venue": "FV Padel Viimsi",
-      "hostCountry": "Estonia",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-01",
-      "url": "https://www.rankedin.com/en/tournament/73193/epl-elizabeth-arden-naiste-b-liiga-5-etapp-fv-padel-viimsi-9267",
-      "status": "live",
-      "deadline": "2026-10-29",
-      "organizer": "Eesti Padeli Liit"
     },
     {
       "id": "FIP-fip-bronze-cyprus-iv-2026",
