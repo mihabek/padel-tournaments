@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T12:13:26Z",
+  "generatedAt": "2026-11-03T11:48:05Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@
       "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-02T12:13:21Z"
+      "fetchedAt": "2026-11-03T11:48:00Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@
       "count": 0,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-02T12:13:22Z"
+      "fetchedAt": "2026-11-03T11:48:01Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-02T12:13:24Z"
+      "fetchedAt": "2026-11-03T11:48:04Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@
       "count": 13,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-02T12:13:26Z"
+      "fetchedAt": "2026-11-03T11:48:05Z"
     }
   ],
   "tournaments": [
@@ -152,7 +152,7 @@
       "city": "Nola",
       "venue": "",
       "hostCountry": "Italy",
-      "startDate": "2026-11-09",
+      "startDate": "2026-11-11",
       "endDate": "2026-11-15",
       "url": "https://www.padelfip.com/events/fip-bronze-levante-2026/",
       "status": "closed",
