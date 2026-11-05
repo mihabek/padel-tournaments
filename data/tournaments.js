@@ -1,5 +1,5 @@
 window.PADEL_DATA = {
-  "generatedAt": "2026-11-04T11:58:53Z",
+  "generatedAt": "2026-11-05T12:06:34Z",
   "sources": [
     {
       "id": "EPL",
@@ -8,7 +8,7 @@ window.PADEL_DATA = {
       "count": 6,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-04T11:58:46Z"
+      "fetchedAt": "2026-11-05T12:06:28Z"
     },
     {
       "id": "SPL",
@@ -17,7 +17,7 @@ window.PADEL_DATA = {
       "count": 0,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-04T11:58:47Z"
+      "fetchedAt": "2026-11-05T12:06:29Z"
     },
     {
       "id": "LPF",
@@ -26,7 +26,7 @@ window.PADEL_DATA = {
       "count": 15,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-04T11:58:50Z"
+      "fetchedAt": "2026-11-05T12:06:32Z"
     },
     {
       "id": "FIP",
@@ -35,7 +35,7 @@ window.PADEL_DATA = {
       "count": 13,
       "ok": true,
       "error": null,
-      "fetchedAt": "2026-11-04T11:58:53Z"
+      "fetchedAt": "2026-11-05T12:06:34Z"
     }
   ],
   "tournaments": [
@@ -75,7 +75,7 @@ window.PADEL_DATA = {
       "startDate": "2026-11-05",
       "endDate": "2026-11-08",
       "url": "https://www.padelfip.com/events/fip-bronze-cyprus-iv-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -95,7 +95,7 @@ window.PADEL_DATA = {
       "startDate": "2026-11-05",
       "endDate": "2026-11-08",
       "url": "https://www.padelfip.com/events/fip-bronze-esc-padel-2026/",
-      "status": "closed",
+      "status": "live",
       "deadline": null,
       "organizer": "FIP"
     },
@@ -180,12 +180,12 @@ window.PADEL_DATA = {
       "organizer": "Eesti Padeli Liit"
     },
     {
-      "id": "FIP-fip-bronze-sweden-ii-2026",
+      "id": "FIP-fip-bronze-skurup-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Sweden II",
+      "name": "Skurup",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -194,18 +194,18 @@ window.PADEL_DATA = {
       "hostCountry": "Sweden",
       "startDate": "2026-11-16",
       "endDate": "2026-11-21",
-      "url": "https://www.padelfip.com/events/fip-bronze-sweden-ii-2026/",
+      "url": "https://www.padelfip.com/events/fip-bronze-skurup-2026/",
       "status": "open",
       "deadline": null,
       "organizer": "FIP"
     },
     {
-      "id": "FIP-fip-bronze-accra-ghana-2026",
+      "id": "FIP-fip-bronze-accra-2026",
       "country": "FIP",
       "countryName": "FIP Bronze",
       "source": "FIP",
       "sourceName": "International Padel Federation",
-      "name": "Accra - Ghana",
+      "name": "Accra",
       "tier": "FIP Bronze",
       "classes": [],
       "gender": "open",
@@ -214,7 +214,7 @@ window.PADEL_DATA = {
       "hostCountry": "Ghana",
       "startDate": "2026-11-16",
       "endDate": "2026-11-22",
-      "url": "https://www.padelfip.com/events/fip-bronze-accra-ghana-2026/",
+      "url": "https://www.padelfip.com/events/fip-bronze-accra-2026/",
       "status": "open",
       "deadline": null,
       "organizer": "FIP"
